@@ -1,32 +1,27 @@
-# Prerequisites
-*.d
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Build artifacts
+/build
+/dist
+/.cache
 
-# Precompiled Headers
-*.gch
-*.pch
+# IDE-specific files and directories
+/.idea
+/.vscode
+*.swp
+*.swo
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Log files
+*.log
 
-# Fortran module files
-*.mod
-*.smod
+# Environment variables
+.env
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Compiled output
+*.min.js
+*.min.css
+*.map.js
+*.map.css
