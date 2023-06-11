@@ -1,0 +1,22 @@
+# Dependency directories
+/node_modules
+
+# Build artifacts
+/build
+/dist
+
+# Environment variables
+.env
+
+# IDE and editor files
+/.vscode
+/.idea
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
