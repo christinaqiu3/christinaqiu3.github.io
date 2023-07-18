@@ -13,7 +13,7 @@ function Cards() {
                             src='images/pennapps-vid.mp4'
                             text='Worked on the PennApps creative team to design
                             the 2023 PennApps hackathon website on Figma'
-                            label='Luxury'
+                            label='PennApps 2023 Website'
                             path='/services'
                         />
                         <CardItem

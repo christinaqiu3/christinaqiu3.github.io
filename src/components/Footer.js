@@ -7,16 +7,14 @@ function Footer() {
     return (
         <div className='footer-container'>
             <div className='footer-links'>
-                <div className='vertical'>
-
                 <div className='social-icons'>
                     <Link
-                        className='social-icon-link youtube'
+                        className='social-icon-link email'
                         to='/'
                         target='_blank'
-                        aria-label='Youtube'
+                        aria-label='Email'
                     >
-                        <i className='fab fa-youtube' />
+                        <i className='fas fa-envelope' />
                     </Link>
                     <Link
                         className='social-icon-link linkedin'
@@ -26,10 +24,16 @@ function Footer() {
                     >
                         <i className='fab fa-linkedin' />
                     </Link>
+                    <Link
+                        className='social-icon-link github'
+                        to='/'
+                        target='_blank'
+                        aria-label='GitHub'
+                    >
+                        <i className='fab fa-github' />
+                    </Link>
                 </div>
                 </div>
-
-            </div>
                 <div class='social-media-wrap'>
                     <small class='website-rights'>Made by Christina Qiu using React</small>
                 </div>

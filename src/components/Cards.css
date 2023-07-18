@@ -17,7 +17,7 @@ h1 {
 
 .cards__wrapper {
     position: relative;
-    margin: 50px 0 0;
+    margin: 50px 0 50px;
 }
 
 .cards__items {
@@ -56,18 +56,20 @@ h1 {
 .cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
-    bottom: 0;
+    top: 10px;
+    left: 10px;
     padding: 6px 8px;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 700;
-    color: #fff;
+    color: #000000;
     background-color: #959CF8;
+    height: 32px;
     box-sizing: border-box;
 }
 
 .cards__item__img {
     position: absolute;
-    top: 0;
+    top: 50px;
     right: 0;
     bottom: 0;
     left: 0;

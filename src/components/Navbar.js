@@ -64,7 +64,7 @@ function Navbar() {
                                 About
                             </NavLink>
                         </li>
-                        <br></br>
+                        <br></br><br></br>
                     </ul>
                 </div>
             </nav>
