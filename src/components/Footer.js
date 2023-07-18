@@ -14,7 +14,7 @@ function Footer() {
                         target='_blank'
                         aria-label='Email'
                     >
-                        <i className='fas fa-envelope' />
+                        <i className='fas fa-envelope-open-text' />
                     </Link>
                     <Link
                         className='social-icon-link linkedin'
