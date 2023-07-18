@@ -2,6 +2,8 @@ import React from 'react';
 import '../../App.css';
 import Cards from "../Cards";
 import Footer from "../Footer";
+import CardItem from "../CardItem";
+import {Link} from "react-router-dom";
 
 export default function WebDev() {
     return (
