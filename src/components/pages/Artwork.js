@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import Cards from "../Cards";
+import CardsA from "../CardsA";
 import Footer from "../Footer";
 
 export default function Artwork() {
@@ -11,7 +11,7 @@ export default function Artwork() {
                 <p className="home-text">Leisurely peruse through this gallery of my
                         paintings, digital art, and 3D modeling projects!</p>
             </div>
-            <Cards />
+            <CardsA />
             <Footer />
 
         </>

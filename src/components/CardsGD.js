@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-function Cards() {
+function CardsGD() {
     return (
         <div className='cards'>
             <div className='cards__container'>
@@ -44,4 +44,4 @@ function Cards() {
     );
 }
 
-export default Cards;
+export default CardsGD;

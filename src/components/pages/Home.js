@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import '../../App.css';
-import Cards from '../Cards';
+import CardsWD from '../CardsWD';
 import Footer from '../Footer';
 
 function Home() {
@@ -46,7 +46,7 @@ function Home() {
                     <p className="home-text"><br/>Welcome to My Creative Playground: Exploring the Intersection of Art, Games, and Web Design!</p>
                 </div>
             </div>
-            <Cards/>
+            <CardsWD/>
             <Footer/>
         </>
     );

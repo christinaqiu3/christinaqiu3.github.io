@@ -11,6 +11,11 @@ h2{
     font-size: 20px;
 }
 
+h3{
+    font-size: 20px;
+    display: contents;
+}
+
 .home {
     display: flex;
     flex-direction: column;
@@ -108,17 +113,59 @@ h2{
     padding: 50px 75px 75px;
 }
 
+
+/*about*/
+
 .image-container {
     flex: 0 0 50%; /* Take up to 50% of the available space */
     max-width: 515px; /* Limit the maximum width of the image */
     //width: 100%; /* Set image width to 100% to maintain aspect ratio */
     text-align: center;
+    font-size: 2rem;
 }
 
 .text-container {
     flex: 0 0 50%; /* Take up to 50% of the available space */
     padding-top: 2rem;
     padding-left: 2rem;
+
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between;
+}
+
+.resume-container {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+
+.resume-text-container{
+    width: min-content;
+}
+
+
+/*resume*/
+
+.resume-link {
+    color: #959CF8;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 20px;
+    opacity: 0;
+    animation: fadeEaseRight 2s forwards;
+}
+
+.social-logo {
+    color: #000000;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
 }
 
 

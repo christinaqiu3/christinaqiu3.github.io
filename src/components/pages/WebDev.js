@@ -1,8 +1,7 @@
 import React from 'react';
 import '../../App.css';
-import Cards from "../Cards";
+import CardsWD from "../CardsWD";
 import Footer from "../Footer";
-import CardItem from "../CardItem";
 import {Link} from "react-router-dom";
 
 export default function WebDev() {
@@ -13,7 +12,9 @@ export default function WebDev() {
                     <p className="home-text">Scroll through
                         my collection of Figma designs and coded sites, including this portfolio website!</p>
             </div>
-            <Cards />
+            <Link to="https://2023f.pennapps.com/">
+                <CardsWD />
+            </Link>
             <Footer />
 
         </>
