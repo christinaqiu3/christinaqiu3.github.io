@@ -10,32 +10,34 @@ function CardsGD() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/pennapps-vid.mp4'
-                            text='Worked on the PennApps creative team to design
-                            the 2023 PennApps hackathon website on Figma'
-                            label='PennApps 2023 Website'
-                            path='/services'
+                            src=''
+                            text='Designed game UI and a monster with a timing based minigame coded in Unity.
+                            Click to see more!'
+                            label='Galaxy Gacha'
+                            path='/galaxygacha'
                         />
                         <CardItem
                             src='images/img-3.jpg'
-                            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                            label='Mystery'
-                            path='/services'
+                            text='The UPGRADE minigame collection for which I created essential assets and an endless runner game.
+                            Click for more!'
+                            label='Island Escapades'
+                            path='/islandescapades'
                         />
                     </ul>
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/img-4.jpg'
-                            text='Experience Football on Top of the Himilayan Mountains'
-                            label='Adventure'
-                            path='/products'
+                            src=''
+                            text='Created character assets and various storyline routes for a 24 hour game jam.
+                            Won “Best Production Value - Art & Sound” and “Best Use of ‘Trick’ Theme” '
+                            label='Mansplain Manipulate Manslaughter'
+                            path='https://ooorz.itch.io/mansplain-manipulate-manslaughter'
                         />
                         <CardItem
                             src='images/img-8.jpg'
-                            text='Ride through the Sahara Desert on a guided camel tour'
-                            label='Adrenaline'
-                            path='/sign-up'
+                            text='Working on a 2D RPG Unity game: writing the script, creating assets, and coding.'
+                            label='Alice'
+                            path='/alice'
                         />
                     </ul>
                 </div>

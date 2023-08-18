@@ -12,9 +12,7 @@ export default function WebDev() {
                     <p className="home-text">Scroll through
                         my collection of Figma designs and coded sites, including this portfolio website!</p>
             </div>
-            <Link to="https://2023f.pennapps.com/">
-                <CardsWD />
-            </Link>
+            <CardsWD />
             <Footer />
 
         </>

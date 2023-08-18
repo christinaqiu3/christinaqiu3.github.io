@@ -2,13 +2,15 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 function CardItem(props) {
+    const isExternalLink = /^https?:\/\//.test(props.path); // Check if it's an external link
+
     return (
         <li className='cards__item'>
             <Link
                 className='cards__item__link'
                 to={props.path}
-                target='_blank'
-                rel='noopener noreferrer'
+                target={isExternalLink ? '_blank' : '_self'} // Set target based on link type
+                rel={isExternalLink ? 'noopener noreferrer' : ''}
             >
                 <figure className='cards__item__pic-wrap' data-category={props.label}>
                     {/* Use the appropriate element based on the content (video or image) */}

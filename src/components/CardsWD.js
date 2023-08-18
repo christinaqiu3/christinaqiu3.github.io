@@ -12,15 +12,15 @@ function CardsWD() {
                         <CardItem
                             src='images/pennapps-vid.mp4'
                             text='Worked on the PennApps creative team to design
-                            the 2023 PennApps hackathon website on Figma'
+                            the 2023 PennApps hackathon website on Figma. Click to visit the site!'
                             label='PennApps 2023 Website'
-                            path='/pennapps'
+                            path='https://2023f.pennapps.com/'
                         />
                         <CardItem
                             src='images/img-3.jpg'
-                            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                            label='Mystery'
-                            path='/'
+                            text='Created this website from scratch using Figma and ReactJS. Click here to take a look at my design process!'
+                            label='My Personal Website'
+                            path='/personalwebsite'
                         />
                     </ul>
                 </div>

@@ -7,6 +7,10 @@ import WebDev from './components/pages/WebDev';
 import GameDev from './components/pages/GameDev';
 import About from './components/pages/About';
 import Artwork from './components/pages/Artwork';
+import GalaxyGacha from './components/pages/GalaxyGacha';
+import IslandEscapades from './components/pages/IslandEscapades';
+import PersonalWebsite from './components/pages/PersonalWebsite';
+import Alice from './components/pages/Alice';
 import { Link } from 'react-router-dom';
 
 function App() {
@@ -20,11 +24,16 @@ function App() {
                 <Route exact path='/webdev' element={<WebDev />}/>
                 <Route exact path='/artwork' element={<Artwork />}/>
                 <Route exact path='/about' element={<About />}/>
-                <Route exact path='/pennapps' element={<Link to='https://2023f.pennapps.com/'>PennApps 2023 Website</Link>} />
+
+                <Route exact path='/galaxygacha' element={<GalaxyGacha />} />
+                <Route exact path='/personalwebsite' element={<PersonalWebsite />} />
+                <Route exact path='/islandescapades' element={<IslandEscapades />} />
+                <Route exact path='/alice' element={<Alice />} />
             </Routes>
         </Router>
     </>
   );
 }
+
 
 export default App;
