@@ -39,8 +39,8 @@ export default function PersonalWebsite() {
     return (
         <>
             <div className="content">
-                <h1 className="home-heading">PERSONAL WEBSITE</h1>
-                <p className="home-text">blah</p>
+                <h1 className="sub-heading">PERSONAL WEBSITE</h1>
+                <p className="home-text"></p>
             </div>
 
             <div className="content-abt">
@@ -50,35 +50,6 @@ export default function PersonalWebsite() {
                         alt="Website Design"
                         className="profile-image"
                     />
-
-                </div>
-                <div className="text-container">
-
-                    <h2 className="fade-in-text">
-                        First, I sketched out a simple layout for each page.
-                        <br></br><br></br>
-                        Then, in Figma I started trying out different color schemes.
-                        I knew I wanted to incorporate purple because it is my favorite color.
-                        I ended up choosing a simple but bold style for the site.
-                        <br></br><br></br>
-                        Here are a couple different designs I ended up cutting.
-                    </h2>
-                </div>
-
-                <div className="image-container">
-
-                    <div
-                        className={`container ${flashlightOn ? '' : 'flashlight-off'}`}
-                        ref={containerRef}
-                        onClick={handleContainerClick}
-                        style={{ cursor: 'url(images/flashlight-cursor.png), auto' }}
-                    >
-                        <div className="hover-area" ref={hoverAreaRef}></div>
-                        <div className="text-description">
-                            <h1 className="home-heading">HOME</h1>
-                            <p className="home-text"><br/>Welcome to My Creative Playground: Exploring the Intersection of Art, Games, and Web Design!</p>
-                        </div>
-                    </div>
 
                 </div>
 
@@ -92,6 +63,19 @@ export default function PersonalWebsite() {
                         I am still quite proud of the pixel art I made, as this was my first venture into this artstyle.
                         <br></br><br></br>
                     </h2>
+
+                    <div
+                        className={`container ${flashlightOn ? '' : 'flashlight-off'}`}
+                        ref={containerRef}
+                        onClick={handleContainerClick}
+                        style={{ cursor: 'url(images/flashlight-cursor.png), auto' }}
+                    >
+                        <div className="hover-area" ref={hoverAreaRef}></div>
+                        <div className="text-description">
+                            <h1 className="home-heading">:)</h1>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

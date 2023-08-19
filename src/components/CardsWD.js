@@ -17,7 +17,7 @@ function CardsWD() {
                             path='https://2023f.pennapps.com/'
                         />
                         <CardItem
-                            src='images/img-3.jpg'
+                            src='images/fv5.mp4'
                             text='Created this website from scratch using Figma and ReactJS. Click here to take a look at my design process!'
                             label='My Personal Website'
                             path='/personalwebsite'
