@@ -56,11 +56,15 @@ export default function PersonalWebsite() {
                 <div className="text-container">
                     <h2 className="fade-in-text">
                         I really loved this flashlight cursor design, where the user could click to turn it on and off.
+
+
                         I even considered adding an on off lightswitch to turn the page to light or dark mode.
                         <br></br><br></br>
                         However, I decided against it because it might make the viewers confused.
                         <br></br><br></br>
-                        I am still quite proud of the pixel art I made, as this was my first venture into this artstyle.
+                        I am still quite proud of the pixel art I made, as this was my first venture into this art style.
+                        <br></br><br></br>
+                        Test it out below!
                         <br></br><br></br>
                     </h2>
 
@@ -75,6 +79,13 @@ export default function PersonalWebsite() {
                             <h1 className="home-heading">:)</h1>
                         </div>
                     </div>
+
+
+                    <h2 className="fade-in-text">
+                        <br></br><br></br>
+                        My main goal was to keep this site simple, consistent, and readable.
+                    </h2>
+
 
                 </div>
             </div>
