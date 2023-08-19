@@ -7,8 +7,7 @@ export default function IslandEscapades() {
     return (
         <>
             <div className="content">
-                <h1 className="home-heading">ISLAND ESCAPADES</h1>
-                <p className="home-text">ISLAND ESCAPADES</p>
+                <h1 className="sub-heading">ISLAND ESCAPADES</h1>
             </div>
 
             <div className="content-abt">

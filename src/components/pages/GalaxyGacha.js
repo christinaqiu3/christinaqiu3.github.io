@@ -7,8 +7,8 @@ export default function GalaxyGacha() {
     return (
         <>
             <div className="content">
-                <h1 className="home-heading">GALAXY GACHA</h1>
-                <p className="home-text">blah</p>
+                <h1 className="sub-heading">GALAXY GACHA</h1>
+                <p className="home-text"></p>
             </div>
             <div className="content-abt">
                 <div className="image-container">

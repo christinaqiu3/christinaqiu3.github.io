@@ -11,6 +11,9 @@ import GalaxyGacha from './components/pages/GalaxyGacha';
 import IslandEscapades from './components/pages/IslandEscapades';
 import PersonalWebsite from './components/pages/PersonalWebsite';
 import Alice from './components/pages/Alice';
+import DigitalArt from './components/pages/DigitalArt';
+import Modeling from './components/pages/3DModeling';
+import FineArt from './components/pages/FineArt';
 import { Link } from 'react-router-dom';
 
 function App() {
@@ -29,6 +32,9 @@ function App() {
                 <Route exact path='/personalwebsite' element={<PersonalWebsite />} />
                 <Route exact path='/islandescapades' element={<IslandEscapades />} />
                 <Route exact path='/alice' element={<Alice />} />
+                <Route exact path='/digitalart' element={<DigitalArt />} />
+                <Route exact path='/3dmodeling' element={<Modeling />} />
+                <Route exact path='/fineart' element={<FineArt />} />
             </Routes>
         </Router>
     </>

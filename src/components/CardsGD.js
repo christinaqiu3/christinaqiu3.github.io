@@ -28,8 +28,9 @@ function CardsGD() {
 
                         <CardItem
                             src=''
-                            text='Created character assets and various storyline routes for a 24 hour game jam.
-                            Won “Best Production Value - Art & Sound” and “Best Use of ‘Trick’ Theme” '
+                            text='Created character assets and various storyline routes for this Visual Novel.
+
+                            Won “Best Production Value - Art & Sound” and “Best Use of ‘Trick’ Theme” for the 2022 UPGRADE 24 hour game jam.'
                             label='Mansplain Manipulate Manslaughter'
                             path='https://ooorz.itch.io/mansplain-manipulate-manslaughter'
                         />

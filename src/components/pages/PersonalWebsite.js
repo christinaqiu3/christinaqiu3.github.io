@@ -46,7 +46,7 @@ export default function PersonalWebsite() {
             <div className="content-abt">
                 <div className="image-container">
                     <img
-                        src="images/allpg.png"
+                        src="images/allpggg.png"
                         alt="Website Design"
                         className="profile-image"
                     />

@@ -11,31 +11,32 @@ function CardsA() {
 
                         <CardItem
                             src='images/art-1.jpeg'
-                            text='Worked on the PennApps creative team to design
-                            the 2023 PennApps hackathon website on Figma'
-                            label='Game Design'
-                            path='/services'
+                            text='Using Maya, Blender, and Unreal engine.'
+                            label='3D Modeling'
+                            path='/3dmodeling'
                         />
                         <CardItem
                             src='images/art-2.jpeg'
-                            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                            label='3D Modeling'
-                            path='/services'
+                            text='Using Canva to advertise clubs, events, and more!'
+                            label='Marketing Design'
+                            path='/marketingdesign'
                         />
                     </ul>
                     <ul className='cards__items'>
 
                         <CardItem
                             src='images/img-4.jpg'
-                            text='Experience Football on Top of the Himilayan Mountains'
+                            text='Exploring many different mediums,
+                            I drew inspiration from familiar spaces, nature, past memories, and dreams.'
                             label='Fine Art'
-                            path='/products'
+                            path='/fineart'
                         />
                         <CardItem
                             src='images/img-8.jpg'
-                            text='Ride through the Sahara Desert on a guided camel tour'
+                            text='Using Adobe Photoshop and Procreate to draw fictional characters, original characters,
+                            family, friends, and myself.'
                             label='Digital Art'
-                            path='/sign-up'
+                            path='/digitalart'
                         />
                     </ul>
                 </div>

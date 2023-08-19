@@ -6,8 +6,7 @@ export default function Alice() {
     return (
         <>
             <div className="content">
-                <h1 className="home-heading">ALICE</h1>
-                <p className="home-text">blah</p>
+                <h1 className="sub-heading">ALICE</h1>
             </div>
 
 
