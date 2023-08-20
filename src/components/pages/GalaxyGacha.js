@@ -11,40 +11,43 @@ export default function GalaxyGacha() {
                 <p className="home-text"></p>
             </div>
             <div className="content-abt">
+
                 <div className="image-container">
                     <img
-                        src="images/profile-pic.jpeg"
-                        alt="Christina Qiu"
+                        src="images/all1pg.png"
+                        alt="Galaxy Gacha"
                         className="profile-image"
                     />
 
                 </div>
                 <div className="text-container">
-                    <h1 className="fade-in-text">Hi, my name is Christina Qiu.<br></br><br></br></h1>
                     <h2 className="fade-in-text">
-                        I am currently studying Digital Media Design/Computer Science
-                        at the University of Pennsylvania.
+                        The UPGRADE club divided into groups of 3-5 members to design monster characters and develop a minigame for each.
                         <br></br><br></br>
-                        I’m interested in the intersection of technology and art, and have been exploring
-                        different career paths through various projects.
+                        In the Galaxy Gacha, players use coins to roll for monsters, and by playing the corresponding minigame, they can earn more coins to roll again.
                         <br></br><br></br>
-                        I’m the industry relations coordinator in UPGRADE, Penn’s game development club,
-                        and a designer on the creative team for PennApps, Penn’s hackathon club.
+                        <br></br>
+                    </h2>
+
+                    <h1 className="fade-in-text">Vampyropoda</h1>
+                    <h2 className="fade-in-text">
+                        <br></br>
+                        A centuries old octopus vampire
+                        who sinks shins to suck the life
+                        force of her victims and steal
+                        their treasure
                         <br></br><br></br>
-                        I love hyper-analyzing media and discussing books, shows, and movies with friends.
-                        In my spare time I also enjoy cooking, baking, and hiking.
-                        <br></br><br></br>
-                        Feel free to look around!
+                        She loves gold and gems. Help
+                        her collect the sunken treasures
+                        before they drift away and are lost forever!
                         <br></br><br></br>
                     </h2>
-                    <Link
-                        className='resume-link'
-                        to='https://docs.google.com/document/d/1T4t-cWnUCJLQr6aDtaHePDn3ETmcyxLqvvNcqZW6Z5Y/edit'
-                        target='_blank'
-                        aria-label='Resume'
-                    >
-                        RESUME
-                    </Link>
+                    <video controls autoPlay loop muted width="515">
+                        <source src="images/mon-vid.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+
+
                 </div>
             </div>
             <Footer />
