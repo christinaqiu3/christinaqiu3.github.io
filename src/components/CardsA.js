@@ -10,13 +10,13 @@ function CardsA() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/art-1.jpeg'
+                            src='images/'
                             text='Using Maya, Blender, and Unreal engine.'
                             label='3D Modeling'
                             path='/3dmodeling'
                         />
                         <CardItem
-                            src='images/art-2.jpeg'
+                            src='images/'
                             text='Using Canva to advertise clubs, events, and more!'
                             label='Marketing Design'
                             path='/marketingdesign'
@@ -25,7 +25,7 @@ function CardsA() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/img-4.jpg'
+                            src='images/fine-art.mp4'
                             text='Exploring many different mediums,
                             I drew inspiration from familiar spaces, nature, past memories, and dreams.'
                             label='Fine Art'

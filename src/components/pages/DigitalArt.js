@@ -52,6 +52,11 @@ export default function DigitalArt() {
                         alt="Surfer"
                         className="profile-image"
                     />
+                    <img
+                        src="images/straw.jpeg"
+                        alt="Strawberry"
+                        className="profile-image"
+                    />
 
                 </div>
                 <div className="text-container">

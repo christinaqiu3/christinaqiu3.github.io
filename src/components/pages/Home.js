@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import '../../App.css';
-import CardsWD from '../CardsWD';
+import CardsH from '../CardsH';
 import Footer from '../Footer';
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
                 <h1 className="home-heading">HOME</h1>
                 <p className="home-text">Here are some unfinished projects I am working on currently!</p>
             </div>
-            <CardsWD/>
+            <CardsH/>
             <Footer/>
         </>
     );

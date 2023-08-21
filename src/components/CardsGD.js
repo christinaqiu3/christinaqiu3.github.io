@@ -17,7 +17,7 @@ function CardsGD() {
                             path='/galaxygacha'
                         />
                         <CardItem
-                            src='images/img-3.jpg'
+                            src='images/FF4.mp4'
                             text='The UPGRADE minigame collection for which I created essential assets and an endless runner game.
                             Click for more!'
                             label='Island Escapades'
