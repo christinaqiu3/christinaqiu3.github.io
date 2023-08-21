@@ -10,7 +10,7 @@ function CardsGD() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/vamp-redo 3 4.mp4'
+                            src='images/vamp3try.mp4'
                             text='Designed game UI and a monster with a timing based minigame coded in Unity.
                             Click to see more!'
                             label='Galaxy Gacha'
@@ -27,7 +27,7 @@ function CardsGD() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src=''
+                            src='images/MMM4.mp4'
                             text='Created character assets and various storyline routes for this Visual Novel.
 
                             Won “Best Production Value - Art & Sound” and “Best Use of ‘Trick’ Theme” for the 2022 UPGRADE 24 hour game jam.'
