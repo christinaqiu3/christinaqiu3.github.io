@@ -33,12 +33,7 @@ export default function DigitalArt() {
                         className="profile-image"
                     />
                     <img
-                        src="images/sun1.jpeg"
-                        alt="Sun"
-                        className="profile-image"
-                    />
-                    <img
-                        src="images/sun2.png"
+                        src="images/sun3.png"
                         alt="Sun"
                         className="profile-image"
                     />

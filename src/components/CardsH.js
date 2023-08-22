@@ -11,15 +11,15 @@ function CardsH() {
 
                         <CardItem
                             src='images/'
-                            text='Working as a ....
-                            jbcleblwebflhwblfhbweqlhkbflwblwhbldhbwlfblwhfblkwhebflhwbflhwbf'
+                            text='Working in a team of 5 to develop a game for children with Down syndrome intended
+                            to help their understanding of what a sleep study entails for a better informed assent.'
                             label='CHOP'
                             path='https://2023f.pennapps.com/'
                         />
                         <CardItem
                             src='images/'
-                            text='In process of....
-                            jbcleblwebflhwblfhbweqlhkbflwblwhbldhbwlfblwhfblkwhebflhwbflhwbf'
+                            text='Developing a React web app that functions as a Penn-specific thrift store, complete
+                            with individual profile pages, an explore page, and a direct messaging page.'
                             label='Thrift Store'
                             path='/personalwebsite'
                         />

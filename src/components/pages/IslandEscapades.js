@@ -13,7 +13,7 @@ export default function IslandEscapades() {
             <div className="content-abt">
                 <div className="image-container">
                     <img
-                        src="images/profile-pic.jpeg"
+                        src="images/all2pg.png"
                         alt="Christina Qiu"
                         className="profile-image"
                     />
@@ -22,13 +22,12 @@ export default function IslandEscapades() {
                 <div className="text-container">
 
                     <h2 className="fade-in-text">
-                        We decided on an island theme for this minigame collection, since each has a different setting.
+                        As a member of the Forrest Frenzy minigame team and the UI team I created assets and designed the layout of the game.
                         <br></br><br></br>
-                        I created all the island designs and the general layout of the game.
+                        We decided on an island theme for this minigame collection since each game has a different setting.
                         <br></br><br></br>
                         When the player chooses which island to go to the camera pans left or right,
                         as if they are turning the bow of a ship.
-                        <br></br><br></br>
                     </h2>
                 </div>
             </div>

@@ -8,7 +8,7 @@ export default function GalaxyGacha() {
         <>
             <div className="content">
                 <h1 className="sub-heading">GALAXY GACHA</h1>
-                <p className="home-text"></p>
+                <p className="home-text">2 0 2 2 - 2 0 2 3</p>
             </div>
             <div className="content-abt">
 
@@ -25,6 +25,8 @@ export default function GalaxyGacha() {
                         The UPGRADE club divided into groups of 3-5 members to design monster characters and develop a minigame for each.
                         <br></br><br></br>
                         In the Galaxy Gacha, players use coins to roll for monsters, and by playing the corresponding minigame, they can earn more coins to roll again.
+                        <br></br><br></br>
+                        I was on the overall game UI team and the Bigger is Better minigame team.
                         <br></br><br></br>
                         <br></br>
                     </h2>
