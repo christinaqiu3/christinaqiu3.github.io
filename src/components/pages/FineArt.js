@@ -1,9 +1,10 @@
 import React from 'react';
 import '../../App.css';
 import Footer from "../Footer";
-import {Link} from "react-router-dom";
+import useScrollToTop from '../useScrollToTop';
 
 export default function FineArt() {
+    useScrollToTop();
     return (
         <>
             <div className="content">
@@ -54,8 +55,11 @@ export default function FineArt() {
                     <h2 className="fade-in-text">
                         Realism in the soft and sharp detailed folds of the blanket is contrasted by the strange
                         otherworldly coloring in the face, blurred at times with the haziness that comes with sleeping,
-                        yet also with harsh shadows due to the unpleasant dream. The person dreaming cannot come to
-                        reality—they cannot escape the nightmare.<br></br><br></br>
+                        yet also with harsh shadows due to the unpleasant dream. The heavy blankets bound me to my bed.
+                        I cannot come to
+                        reality— I will never escape the nightmare.
+
+                        <br></br><br></br>
 
                         Medium: Acrylic<br></br>
                         Date: 2020<br></br>
@@ -76,12 +80,14 @@ export default function FineArt() {
 
                 </div>
                 <div className="text-container">
-                    <h1 className="fade-in-text">Sister
+                    <h1 className="fade-in-text">Dad
                     </h1>
                     <h2 className="fade-in-text">
-                        I created this piece by first going over the entire paper with charcoal, and then using an eraser to draw the features. The person depicted is my lovely sister, and I tried to exude her grace through the paper.<br></br><br></br>
+                        I used the side of the charcoal stick and didn't blend to keep texture throughout this piece.
+                        This is meant to portray the grief and fatigue of my dad after my Uncle died.
+                        It was an intense period of time for me and my family.<br></br><br></br>
                         Medium: Black Charcoal, Kneaded Eraser<br></br>
-                        Date: 2019<br></br>
+                        Date: 2023<br></br>
                         Size: 18in x 24in<br></br>
                         <br></br><br></br>
                     </h2>

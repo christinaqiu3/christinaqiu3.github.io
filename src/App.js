@@ -1,6 +1,6 @@
-import React from 'react';
+import React , { useEffect } from 'react';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import WebDev from './components/pages/WebDev';
@@ -17,6 +17,9 @@ import FineArt from './components/pages/FineArt';
 import CHOP from './components/pages/CHOP';
 
 function App() {
+
+
+
   return (
     <>
         <Router>
@@ -33,7 +36,7 @@ function App() {
                 <Route exact path='/islandescapades' element={<IslandEscapades />} />
                 <Route exact path='/alice' element={<Alice />} />
                 <Route exact path='/digitalart' element={<DigitalArt />} />
-                <Route exact path='/3dmodeling' element={<Modeling />} />
+                <Route exact path='/modeling' element={<Modeling />} />
                 <Route exact path='/fineart' element={<FineArt />} />
                 <Route exact path='/CHOP' element={<CHOP />} />
             </Routes>

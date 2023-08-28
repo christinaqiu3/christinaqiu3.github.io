@@ -188,6 +188,11 @@ h3{
         max-width: 390px;
     }
 
+    .text-container {
+
+        padding-right: 2rem;
+    }
+
 }
 
 .container {

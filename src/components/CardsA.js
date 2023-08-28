@@ -13,7 +13,7 @@ function CardsA() {
                             src='images/'
                             text='Using Maya, Blender, and Unreal engine.'
                             label='3D Modeling'
-                            path='/3dmodeling'
+                            path='/modeling'
                         />
                         <CardItem
                             src='images/'
@@ -25,14 +25,14 @@ function CardsA() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/fine-art.mp4'
+                            src='images/fine-art-3.mp4'
                             text='Exploring many different mediums,
                             I drew inspiration from familiar spaces, nature, past memories, and dreams.'
                             label='Fine Art'
                             path='/fineart'
                         />
                         <CardItem
-                            src='images/digital-art.mp4'
+                            src='images/dig-art-5.mp4'
                             text='Using Adobe Photoshop and Procreate to draw fictional characters, original characters,
                             family, friends, and myself.'
                             label='Digital Art'

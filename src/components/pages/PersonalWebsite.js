@@ -1,8 +1,12 @@
 import React, {useEffect, useRef, useState} from 'react';
 import '../../App.css';
 import Footer from "../Footer";
+import useScrollToTop from '../useScrollToTop';
 
 export default function PersonalWebsite() {
+
+    useScrollToTop();
+
     const [flashlightOn, setFlashlightOn] = useState(true);
 
     const containerRef = useRef(null);

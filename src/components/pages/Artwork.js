@@ -2,8 +2,10 @@ import React from 'react';
 import '../../App.css';
 import CardsA from "../CardsA";
 import Footer from "../Footer";
+import useScrollToTop from '../useScrollToTop';
 
 export default function Artwork() {
+    useScrollToTop();
     return (
         <>
             <div className="content">

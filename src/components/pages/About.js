@@ -2,9 +2,13 @@ import React from 'react';
 import '../../App.css';
 import Footer from "../Footer";
 import { Link } from 'react-router-dom';
+import useScrollToTop from '../useScrollToTop';
 
 
 export default function About() {
+
+    useScrollToTop();
+
     return (
         <>
             <div className="content-abt">

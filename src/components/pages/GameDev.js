@@ -2,8 +2,10 @@ import React from 'react';
 import '../../App.css';
 import CardsGD from "../CardsGD";
 import Footer from "../Footer";
+import useScrollToTop from '../useScrollToTop';
 
 export default function GameDev() {
+    useScrollToTop();
     return (
         <>
             <div className="content">

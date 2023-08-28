@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../App.css';
 import CardsWD from "../CardsWD";
 import Footer from "../Footer";
-import {Link} from "react-router-dom";
+import useScrollToTop from '../useScrollToTop';
 
 export default function WebDev() {
+    useScrollToTop();
     return (
         <>
             <div className="content">

@@ -2,10 +2,10 @@ import React, { useEffect, useRef, useState } from 'react';
 import '../../App.css';
 import CardsH from '../CardsH';
 import Footer from '../Footer';
+import useScrollToTop from '../useScrollToTop';
 
 function Home() {
-
-
+    useScrollToTop();
     return (
         <>
             <div className="content">
