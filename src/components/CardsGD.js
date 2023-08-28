@@ -26,6 +26,15 @@ function CardsGD() {
                     </ul>
                     <ul className='cards__items'>
 
+
+                        <CardItem
+                            src='images/img-8.jpg'
+                            text='A Java game utilizing Swing, file i/o, JPanel/JFrame, and 2D arrays. Click to visit the repo!
+                            '
+                            label='Alice in Dungeonland'
+                            path='https://github.com/christinaqiu3/AliceJava'
+                        />
+
                         <CardItem
                             src='images/MMM4.mp4'
                             text='Created character assets and various storyline routes for this Visual Novel.
@@ -34,12 +43,8 @@ function CardsGD() {
                             label='Mansplain Manipulate Manslaughter'
                             path='https://ooorz.itch.io/mansplain-manipulate-manslaughter'
                         />
-                        <CardItem
-                            src='images/img-8.jpg'
-                            text='Working on a 2D RPG Unity game: writing the script, creating assets, and coding.'
-                            label='Alice'
-                            path='/alice'
-                        />
+
+
                     </ul>
                 </div>
             </div>

@@ -14,7 +14,7 @@ import Alice from './components/pages/Alice';
 import DigitalArt from './components/pages/DigitalArt';
 import Modeling from './components/pages/3DModeling';
 import FineArt from './components/pages/FineArt';
-import { Link } from 'react-router-dom';
+import CHOP from './components/pages/CHOP';
 
 function App() {
   return (
@@ -35,6 +35,7 @@ function App() {
                 <Route exact path='/digitalart' element={<DigitalArt />} />
                 <Route exact path='/3dmodeling' element={<Modeling />} />
                 <Route exact path='/fineart' element={<FineArt />} />
+                <Route exact path='/CHOP' element={<CHOP />} />
             </Routes>
         </Router>
     </>

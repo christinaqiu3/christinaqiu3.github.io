@@ -10,18 +10,18 @@ function CardsH() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/'
+                            src='images/chop3.mp4'
                             text='Working in a team of 5 to develop a game for children with Down syndrome intended
                             to help their understanding of what a sleep study entails for a better informed assent.'
-                            label='CHOP'
-                            path='https://2023f.pennapps.com/'
+                            label='CHOP Sleep Study Serious Game'
+                            path='/CHOP'
                         />
                         <CardItem
                             src='images/'
-                            text='Developing a React web app that functions as a Penn-specific thrift store, complete
-                            with individual profile pages, an explore page, and a direct messaging page.'
-                            label='Thrift Store'
-                            path='/personalwebsite'
+                            text='Working on a 2D RPG Unity game personal project inspired by Alice in Wonderland.
+                            Writing the script, creating assets, and coding.'
+                            label='Alice: A Tale of Choices'
+                            path='/Alice'
                         />
                     </ul>
                 </div>
