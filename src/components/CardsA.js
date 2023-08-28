@@ -32,7 +32,7 @@ function CardsA() {
                             path='/fineart'
                         />
                         <CardItem
-                            src='images/img-8.jpg'
+                            src='images/digital-art.mp4'
                             text='Using Adobe Photoshop and Procreate to draw fictional characters, original characters,
                             family, friends, and myself.'
                             label='Digital Art'
