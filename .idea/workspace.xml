@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change afterPath="$PROJECT_DIR$/public/images/dig-art-5.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/dig-art2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/dig-art3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/dig-art4.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fine-art-2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fine-art-3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/useScrollToTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/all3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/13.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/15.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/16.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/18.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/18.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/20.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/20.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/23.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/23.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/24.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/24.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/25.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/25.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/26.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/26.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/27.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/27.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/28.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/28.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/29.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/29.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/art-4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/art-4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardsA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsA.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/3DModeling.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/3DModeling.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Alice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Alice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Artwork.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Artwork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/CHOP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/CHOP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/DigitalArt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/DigitalArt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/FineArt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/FineArt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/GalaxyGacha.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/GalaxyGacha.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/GameDev.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/GameDev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/IslandEscapades.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/IslandEscapades.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/MarketingDesign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/MarketingDesign.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/PersonalWebsite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/PersonalWebsite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/WebDev.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/WebDev.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +73,7 @@
       <workItem from="1688361011505" duration="50618000" />
       <workItem from="1692298160552" duration="31000000" />
       <workItem from="1692549917987" duration="19638000" />
-      <workItem from="1692717990405" duration="23620000" />
+      <workItem from="1692717990405" duration="25018000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>

@@ -15,6 +15,7 @@ import DigitalArt from './components/pages/DigitalArt';
 import Modeling from './components/pages/3DModeling';
 import FineArt from './components/pages/FineArt';
 import CHOP from './components/pages/CHOP';
+import MarketingDesign from './components/pages/MarketingDesign';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
                 <Route exact path='/modeling' element={<Modeling />} />
                 <Route exact path='/fineart' element={<FineArt />} />
                 <Route exact path='/CHOP' element={<CHOP />} />
+                <Route exact path='/marketingdesign' element={<MarketingDesign />} />
             </Routes>
         </Router>
     </>
