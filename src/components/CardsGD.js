@@ -28,8 +28,9 @@ function CardsGD() {
 
 
                         <CardItem
-                            src='images/img-8.jpg'
-                            text='A Java game utilizing Swing, file i/o, JPanel/JFrame, and 2D arrays. Click to visit the repo!
+                            src='images/Alice2.mp4'
+                            text='A Java game utilizing Swing, file i/o, JPanel/JFrame, and 2D arrays.
+                            Click here to visit the repo!
                             '
                             label='Alice in Dungeonland'
                             path='https://github.com/christinaqiu3/AliceJava'

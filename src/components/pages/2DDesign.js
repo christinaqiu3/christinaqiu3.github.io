@@ -25,11 +25,9 @@ export default function DDesign() {
                     </h1>
                     <h2 className="fade-in-text">
 
-                        Student Research Assistant for Weston Science Scholars. Co-writing a paper on Bias and the Brain to be presented at the Eastern Psych Association Conference. Collect data; statistical analysis.
-
-                        <br></br><br></br>
-
-                        A ____ from Women in Animation, Key Club, Creative Writing Club, Asian Student Union, <br></br><br></br>
+                        I use Canva to promote UPenn's Women in Animation Club events and co-create a summer art class.
+                        Additionally, I employ Microsoft PowerPoint as a Student Research Assistant, designing
+                        research posters and analyzing data for the Weston Science Scholars program. <br></br><br></br>
                     </h2>
                 </div>
 

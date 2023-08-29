@@ -16,8 +16,8 @@ function CardsA() {
                             path='/modeling'
                         />
                         <CardItem
-                            src='images/'
-                            text='Using Canva and Microsoft PowerPoint to advertise and present studies!'
+                            src='images/marketing.mp4'
+                            text='Using Canva and Microsoft PowerPoint to advertise events and present studies!'
                             label='2D Design'
                             path='/2ddesign'
                         />
