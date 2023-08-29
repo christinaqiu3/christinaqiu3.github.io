@@ -14,8 +14,8 @@ export default function CHOP() {
             <div className="content-abt">
                 <div className="image-container">
                     <img
-                        src="images/all2pg.png"
-                        alt="Christina Qiu"
+                        src="images/all4.png"
+                        alt="sleep study"
                         className="profile-image"
                     />
 
