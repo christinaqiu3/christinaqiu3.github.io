@@ -25,9 +25,9 @@ export default function DDesign() {
                     </h1>
                     <h2 className="fade-in-text">
 
-                        I use Canva to promote UPenn's Women in Animation Club events and co-create a summer art class.
-                        Additionally, I employ Microsoft PowerPoint as a Student Research Assistant, designing
-                        research posters and analyzing data for the Weston Science Scholars program. <br></br><br></br>
+                        I use Canva to promote UPenn's Women in Animation and self-hosted events.
+                        I used Microsoft PowerPoint as a Student Research Assistant for Weston Science Scholars to design
+                        research posters presented at a conference. <br></br><br></br>
                     </h2>
                 </div>
 

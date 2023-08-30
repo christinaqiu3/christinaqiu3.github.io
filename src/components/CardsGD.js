@@ -18,7 +18,7 @@ function CardsGD() {
                         />
                         <CardItem
                             src='images/FF4.mp4'
-                            text='The UPGRADE minigame collection for which I created essential assets and an endless runner game.
+                            text='The UPGRADE minigame collection for which I and 2 team members made an endless runner game.
                             Click for more!'
                             label='Island Escapades'
                             path='/islandescapades'
@@ -30,6 +30,7 @@ function CardsGD() {
                         <CardItem
                             src='images/Alice2.mp4'
                             text='A Java game utilizing Swing, file i/o, JPanel/JFrame, and 2D arrays.
+                            Submitted as my CIS 1200 final project.
                             Click here to visit the repo!
                             '
                             label='Alice in Dungeonland'
@@ -38,9 +39,8 @@ function CardsGD() {
 
                         <CardItem
                             src='images/MMM4.mp4'
-                            text='Created character assets and various storyline routes for this Visual Novel.
-
-                            Won “Best Production Value - Art & Sound” and “Best Use of ‘Trick’ Theme” for the 2022 UPGRADE 24 hour game jam.'
+                            text='Designed and developed visual novel in 24 hours with 2 team members for the UPGRADE
+                            Halloween Game Jam. Won “Best Production Value – Art & Sound” and “Best Use of Trick Theme” Awards.'
                             label='Mansplain Manipulate Manslaughter'
                             path='https://ooorz.itch.io/mansplain-manipulate-manslaughter'
                         />
