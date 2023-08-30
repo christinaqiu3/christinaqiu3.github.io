@@ -17,38 +17,30 @@ export default function Modeling() {
             <div className="content-abt">
                 <div className="image-container">
                     <img
-                        src="images/profile-pic.jpeg"
+                        src="images/"
                         alt="Christina Qiu"
                         className="profile-image"
                     />
 
+                    <video controls autoPlay loop muted width="515">
+                        <source src="images/cig.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+
                 </div>
+
+
+
                 <div className="text-container">
-                    <h1 className="fade-in-text">Hi, my name is Christina Qiu.<br></br><br></br></h1>
+                    <h1 className="fade-in-text">UPGRADE Graphics Pipeline Speedrun</h1>
                     <h2 className="fade-in-text">
-                        I am currently studying Digital Media Design/Computer Science
-                        at the University of Pennsylvania.
-                        <br></br><br></br>
-                        I’m interested in the intersection of technology and art, and have been exploring
-                        different career paths through various projects.
-                        <br></br><br></br>
-                        I’m the industry relations coordinator in UPGRADE, Penn’s game development club,
-                        and a designer on the creative team for PennApps, Penn’s hackathon club.
-                        <br></br><br></br>
-                        I love hyper-analyzing media and discussing books, shows, and movies with friends.
-                        In my spare time I also enjoy cooking, baking, and hiking.
-                        <br></br><br></br>
-                        Feel free to look around!
+
+                        <br></br>
+                        Collaborated in a team of 3 to render a character walking cycle using Blender, Rigify, and Unreal.
+                        Self taught and completed an mp3 with scripted camera movement in 6 hours.
+
                         <br></br><br></br>
                     </h2>
-                    <Link
-                        className='resume-link'
-                        to='https://docs.google.com/document/d/1T4t-cWnUCJLQr6aDtaHePDn3ETmcyxLqvvNcqZW6Z5Y/edit'
-                        target='_blank'
-                        aria-label='Resume'
-                    >
-                        RESUME
-                    </Link>
                 </div>
             </div>
             <Footer />
