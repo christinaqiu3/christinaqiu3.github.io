@@ -19,8 +19,6 @@ import DDesign from './components/pages/2DDesign';
 
 function App() {
 
-
-
   return (
     <>
         <Router>

@@ -23,19 +23,15 @@ export default function About() {
                 <div className="text-container">
                     <h1 className="fade-in-text">Hi, my name is Christina Qiu.<br></br><br></br></h1>
                     <h2 className="fade-in-text">
-                        I am currently studying Digital Media Design/Computer Science
+                        📚 I study Computer Science and Digital Media Design
                         at the University of Pennsylvania.
                         <br></br><br></br>
-                        I’m interested in the intersection of technology and art, and have been exploring
-                        different career paths through various projects.
-                        <br></br><br></br>
-                        I’m the industry relations coordinator in UPGRADE, Penn’s game development club,
+                        💻 I’m a Mobile iOS developer for PennLabs, the industry relations coordinator in UPGRADE, Penn’s game development club,
                         and a designer on the creative team for PennApps, Penn’s hackathon club.
                         <br></br><br></br>
-                        I love hyper-analyzing media and discussing books, shows, and movies with friends.
-                        In my spare time I also enjoy cooking, baking, and hiking.
+                        🕹️ I am passionate about computer programming, computer graphics, human-computer interaction, virtual reality, game and media development.
                         <br></br><br></br>
-                        Feel free to look around!
+                        👋 Feel free to look around!
                         <br></br><br></br>
                     </h2>
                     <Link

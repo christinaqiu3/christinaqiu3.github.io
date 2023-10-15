@@ -26,7 +26,44 @@ function Navbar() {
         showButton();
     }, []);
 
+    useEffect(() => {
+        const smoothScroll = (targetId) => {
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                const offset = 8 * parseFloat(getComputedStyle(document.documentElement).fontSize); // 8rem in pixels
+                window.scrollTo({
+                    top: targetElement.offsetTop - offset,
+                    behavior: 'smooth',
+                });
+            }
+        };
+
+        // Add smooth scroll behavior when clicking on anchor links
+        document.querySelectorAll('.nav-links').forEach((link) => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = e.target.getAttribute('href').substring(1); // Get the target ID without the '#'
+                smoothScroll(targetId);
+            });
+        });
+    }, []);
+
+
+
     window.addEventListener('resize', showButton);
+
+    const toggleDarkMode = () => {
+        const root = document.documentElement;
+        const isDarkMode = root.classList.contains('dark-mode');
+        if (isDarkMode) {
+            root.style.setProperty('--background-light', '#ffffff');
+            root.style.setProperty('--text-light', '#000000');
+        } else {
+            root.style.setProperty('--background-light', '#32324b');
+            root.style.setProperty('--text-light', '#ffffff');
+        }
+        root.classList.toggle('dark-mode');
+    };
 
     return (
         <>
@@ -40,30 +77,28 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <NavLink to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <a href='#about' className='nav-links' onClick={closeMobileMenu}>
                                 Home
-                            </NavLink>
+                            </a>
                         </li>
                         <li className='nav-item'>
-                            <NavLink to='/gamedev' className='nav-links' onClick={closeMobileMenu}>
+                            <a href='#game' className='nav-links' onClick={closeMobileMenu}>
                                 Game Dev
-                            </NavLink>
+                            </a>
                         </li>
                         <li className='nav-item'>
-                            <NavLink to='/webdev' className='nav-links' onClick={closeMobileMenu}>
+                            <a href='#web' className='nav-links' onClick={closeMobileMenu}>
                                 Web Dev
-                            </NavLink>
+                            </a>
                         </li>
                         <li className='nav-item'>
-                            <NavLink to='/artwork' className='nav-links' onClick={closeMobileMenu}>
+                            <a href='#art' className='nav-links' onClick={closeMobileMenu}>
                                 Artwork
-                            </NavLink>
+                            </a>
                         </li>
-                        <li className='nav-item'>
-                            <NavLink to='/about' className='nav-links' onClick={closeMobileMenu}>
-                                About
-                            </NavLink>
-                        </li>
+
+                        <button onClick={toggleDarkMode}>🌕</button>
+
                         <br></br><br></br>
                     </ul>
                 </div>

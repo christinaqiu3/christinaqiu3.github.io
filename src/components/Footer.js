@@ -35,7 +35,7 @@ function Footer() {
                 </div>
                 </div>
                 <div class='social-media-wrap'>
-                    <small class='website-rights'>Made by Christina Qiu using React</small>
+                    <small class='website-rights'> Made with ♥︎ by by Christina Qiu</small>
                 </div>
         </div>
     );
