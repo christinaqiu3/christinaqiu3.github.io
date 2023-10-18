@@ -57,14 +57,14 @@ function Navbar() {
         const isDarkMode = root.classList.contains('dark-mode');
         if (isDarkMode) {
             root.style.setProperty('--background', '#ffffff');
-            root.style.setProperty('--text', '#222628');
+            root.style.setProperty('--text', '#000000');
             root.style.setProperty('--card', '#e6e7ff');
-            root.style.setProperty('--heading', '#32374b');
+            root.style.setProperty('--heading', '#000000');
             //root.style.setProperty('--nav-background', '#959CF8');
         } else {
-            root.style.setProperty('--background', '#222628'); //#32324b
-            root.style.setProperty('--text', '#D3D3F0');
-            root.style.setProperty('--card', '#32374b');
+            root.style.setProperty('--background', '#000000'); //#32324b//222628
+            root.style.setProperty('--text', '#959CF8');//D3D3F0
+            root.style.setProperty('--card', '#32324b');
             root.style.setProperty('--heading', '#959CF8');
             //root.style.setProperty('--nav-background', '#656FC8');
         }
@@ -110,7 +110,7 @@ function Navbar() {
                     </ul>
                 </div>
             </nav>
-            
+
         </>
     )
 }

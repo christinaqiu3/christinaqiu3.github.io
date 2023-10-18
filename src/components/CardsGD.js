@@ -9,7 +9,7 @@ function CardsGD() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/vamp3try.mp4'
+                            src='images/vamp3tryFINAL.mp4'
                             text='Designed game UI and a monster with a timing based minigame coded in Unity.
                             Click to see more!'
                             label='Galaxy Gacha'

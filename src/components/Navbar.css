@@ -86,8 +86,9 @@
     top: 50px;
     left: 50%;
     transform: translateX(-50%) translateY(-25%);
+    transition: all 0.2s ease-out;
     font-size: 20px;
-    color: var(--nav-hilighted);
+    color: black;
 }
 
 .nav-links.active {
@@ -100,6 +101,7 @@
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
+    transition: all 0.2s ease-out;
     font-size: 20px;
 }
 
@@ -124,7 +126,8 @@ button {
 button:hover {
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    transform: translateY(-5%);
+    font-size: 36px;
+    //transform: translateY(-5%);
     transition: all 0.2s ease-out;
 }
 

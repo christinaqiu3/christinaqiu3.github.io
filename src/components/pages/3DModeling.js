@@ -14,22 +14,27 @@ export default function Modeling() {
                 <p className="home-text"></p>
             </div>
             <div className="content-abt">
-                <div className="image-container">
-                    <img
-                        src="images/"
-                        alt="Christina Qiu"
-                        className="profile-image"
-                    />
+            <div className="text-container">
+            <h1 className="fade-in-text">Demo Reel</h1>
+            <h2 className="fade-in-text">
+                <br></br>
+                last updated: Oct 2023
+                <br></br><br></br>
+            </h2>
+            <video controls autoPlay loop muted width="515">
+                <source src="images/demoreelF copy.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            </div>
+            </div>
 
+            <div className="content-abt">
+                <div className="image-container">
                     <video controls autoPlay loop muted width="515">
                         <source src="images/cig.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-
                 </div>
-
-
-
                 <div className="text-container">
                     <h1 className="fade-in-text">UPGRADE Graphics Pipeline Speedrun</h1>
                     <h2 className="fade-in-text">

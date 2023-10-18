@@ -22,6 +22,7 @@ h3{
     display: contents;
 }
 
+
 .home-heading {
     font-size: 32px;
     text-align: center;
@@ -65,7 +66,9 @@ h3{
     box-shadow: 0 0 20px rgb(149, 156, 248);
     transform: translate(-50%, -50%);
     object-fit: cover;
-    height: 500px;
+    max-height: 500px;
+    max-width: 400px;
+    width: 100%;
     opacity: 0;
     animation: fadeEaseLeft 2s forwards;
 }
@@ -133,7 +136,8 @@ h3{
 .text-container {
     flex: 0 0 50%; /* Take up to 50% of the available space */
     padding-top: 4rem;
-    padding-right: 4rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack elements vertically */
     justify-content: space-between;

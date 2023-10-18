@@ -64,20 +64,20 @@ function Home() {
                 </div>
             </div>
 
-            <div id="game">
+            <section id="game">
             <h1 className="home-heading">Game Dev</h1>
             <CardsGD />
-            </div>
+            </section>
 
-            <div id="web">
+            <section id="web">
             <h1 className="home-heading">Web Dev</h1>
             <CardsWD />
-            </div>
+            </section>
 
-            <div id="art">
+            <section id="art">
             <h1 className="home-heading">Artwork</h1>
             <CardsA />
-            </div>
+            </section>
 
 
             <Footer />
