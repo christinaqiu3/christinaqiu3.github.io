@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../App.css';
 import Footer from "../Footer";
 import useScrollToTop from '../useScrollToTop';
@@ -16,7 +16,7 @@ export default function DigitalArt() {
                     <img
                         src="images/grandparents.jpeg"
                         alt="Grandparents"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -35,7 +35,7 @@ export default function DigitalArt() {
                     <img
                         src="images/chibi.jpeg"
                         alt="Chibi"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -57,7 +57,7 @@ export default function DigitalArt() {
                     <img
                         src="images/chrollo.jpeg"
                         alt="Chrollo"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -78,7 +78,7 @@ export default function DigitalArt() {
                     <img
                         src="images/red.jpeg"
                         alt="Red"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -97,7 +97,7 @@ export default function DigitalArt() {
                     <img
                         src="images/sun.png"
                         alt="Sun"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -117,7 +117,7 @@ export default function DigitalArt() {
                     <img
                         src="images/squidbee.jpeg"
                         alt="Friend"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -136,7 +136,7 @@ export default function DigitalArt() {
                     <img
                         src="images/surfer.jpeg"
                         alt="Surfer"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -154,7 +154,7 @@ export default function DigitalArt() {
                     <img
                         src="images/straw.jpeg"
                         alt="Strawberry"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>

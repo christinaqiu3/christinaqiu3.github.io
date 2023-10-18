@@ -1,5 +1,7 @@
-import { useEffect } from 'react';
+
 import { useLocation } from 'react-router-dom';
+
+const { useEffect } = require('react');
 
 const useScrollToTop = () => {
     const { pathname } = useLocation();

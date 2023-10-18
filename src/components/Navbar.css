@@ -1,6 +1,12 @@
+:root {
+    --nav-background: #959CF8;
+    --nav-text: #000000;
+    --nav-hilighted: white;
+}
+
 .navbar {
     /*background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);*/
-    background:#959CF8;
+    background: var(--nav-background);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -20,7 +26,7 @@
 }
 
 .navbar-logo {
-    color: black;
+    color: var(--nav-text);
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -59,7 +65,7 @@
 
 
 .nav-links {
-    color: black;
+    color: var(--nav-text);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -80,7 +86,7 @@
     left: 50%;
     transform: translateX(-50%);
     font-size: 20px;
-    color: white;
+    color: var(--nav-hilighted);
 }
 
 .nav-links.active {
@@ -97,7 +103,7 @@
 }
 
 .fa-bars {
-    color: black;
+    color: var(--nav-text);
 }
 
 .nav-links-mobile {
@@ -131,7 +137,7 @@ button {
     }
 
     .nav-menu.active {
-        background: #959CF8;
+        background: var(--nav-background);
         left: 0;
         opacity: 1;
         //transition: all 0.5s ease;
@@ -149,7 +155,7 @@ button {
 
     .nav-links:hover {
         /*background-color: #fff;*/
-        color: black;
+        color: var(--nav-text);
         border-radius: 0;
     }
 
@@ -179,7 +185,7 @@ button {
     }
 
     .fa-times {
-        color: black;
+        color: var(--nav-text);
         font-size: 2rem;
         position: absolute;
         top: 23px;
@@ -195,15 +201,15 @@ button {
         text-decoration: none;
         font-size: 1.5rem;
         background-color: transparent;
-        color: #fff;
+        color: var(--nav-hilighted);
         padding: 14px 20px;
         border: 1px solid #fff;
         transition: all 0.3s ease-out;
     }
 
     .nav-links-mobile:hover {
-        background: #fff;
-        color: black;
+        background: var(--nav-hilighted);
+        color: var(--nav-text);
         transition: 250ms;
     }
 }

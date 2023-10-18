@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import {useEffect, useRef, useState} from 'react';
 import '../../App.css';
 import Footer from "../Footer";
 import useScrollToTop from '../useScrollToTop';
@@ -52,7 +52,7 @@ export default function PersonalWebsite() {
                     <img
                         src="images/allpggg.png"
                         alt="Website Design"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../App.css';
 import CardsA from "../CardsA";
 import Footer from "../Footer";

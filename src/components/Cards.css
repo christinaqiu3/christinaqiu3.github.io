@@ -1,13 +1,12 @@
 :root {
-    --background-light: #ffffff;
-    --text-light: #000000;
-    --background-dark: #333333;
-    --text-dark: #ffffff;
+    --background: #ffffff;
+    --text: #000000;
+    --card: #e6e7ff;
 }
 
 .cards {
-    background: var(--background-light);
-    padding: 7rem;
+    background: var(--background);
+    padding: 6rem;
     padding-top: 0;
 }
 
@@ -42,7 +41,7 @@ h1 {
     display: flex;
     flex-flow: column;
     width: 100%;
-    background-color: var(--background-light);
+    background-color: var(--card);
     box-shadow: 0 0 20px rgb(149, 156, 248);
     //-webkit-filter: drop-shadow(0 6px 20px rgb(149, 156, 248));
     //filter: drop-shadow(0 6px 20px rgb(149, 156, 248));
@@ -71,8 +70,8 @@ h1 {
     padding: 30px 30px 20px;
     font-size: 20px;
     font-weight: 700;
-    color: var(--text-light);
-    background-color: var(--background-light);
+    color: var(--text);
+    background-color: var(--card);
     width: 100%;
     box-sizing: border-box;
 }
@@ -101,7 +100,7 @@ h1 {
 }
 
 .cards__item__text {
-    color: var(--text-light);
+    color: var(--text);
     font-size: 20px;
     line-height: 24px;
     font-family: 'Mukta', sans-serif;
@@ -122,5 +121,8 @@ h1 {
 @media only screen and (max-width: 930px) {
     .cards__item {
         margin-bottom: 2rem;
+    }
+    .cards {
+        padding: 2rem;
     }
 }

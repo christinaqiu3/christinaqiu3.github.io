@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../App.css';
 import Footer from "../Footer";
 import useScrollToTop from '../useScrollToTop';
@@ -9,7 +9,6 @@ export default function GalaxyGacha() {
         <>
             <div className="content">
                 <h1 className="sub-heading">GALAXY GACHA</h1>
-                <p className="home-text">2 0 2 2 - 2 0 2 3</p>
             </div>
             <div className="content-abt">
 
@@ -17,7 +16,7 @@ export default function GalaxyGacha() {
                     <img
                         src="images/all1pg.png"
                         alt="Galaxy Gacha"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>

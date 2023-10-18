@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 import {Button} from "./Button";
@@ -56,11 +56,17 @@ function Navbar() {
         const root = document.documentElement;
         const isDarkMode = root.classList.contains('dark-mode');
         if (isDarkMode) {
-            root.style.setProperty('--background-light', '#ffffff');
-            root.style.setProperty('--text-light', '#000000');
+            root.style.setProperty('--background', '#ffffff');
+            root.style.setProperty('--text', '#222628');
+            root.style.setProperty('--card', '#e6e7ff');
+            root.style.setProperty('--heading', '#32374b');
+            root.style.setProperty('--nav-background', '#959CF8');
         } else {
-            root.style.setProperty('--background-light', '#32324b');
-            root.style.setProperty('--text-light', '#ffffff');
+            root.style.setProperty('--background', '#222628'); //#32324b
+            root.style.setProperty('--text', '#D3D3F0');
+            root.style.setProperty('--card', '#32374b');
+            root.style.setProperty('--heading', '#656FC8');
+            root.style.setProperty('--nav-background', '#656FC8');
         }
         root.classList.toggle('dark-mode');
     };

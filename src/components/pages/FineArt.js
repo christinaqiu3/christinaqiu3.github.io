@@ -16,7 +16,7 @@ export default function FineArt() {
                     <img
                         src="images/art-1.jpeg"
                         alt="Summer's Chill"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -45,7 +45,7 @@ export default function FineArt() {
                     <img
                         src="images/art-3.jpeg"
                         alt="Nightmare"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -75,7 +75,7 @@ export default function FineArt() {
                     <img
                         src="images/art-4.jpeg"
                         alt="Sister"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -101,7 +101,7 @@ export default function FineArt() {
                     <img
                         src="images/art-5.jpg"
                         alt="Cityscape"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -123,7 +123,7 @@ export default function FineArt() {
                     <img
                         src="images/art-6.jpg"
                         alt="Confucius's Life"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -148,7 +148,7 @@ export default function FineArt() {
                     <img
                         src="images/art-2.jpeg"
                         alt="Longevity Noodles"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -174,7 +174,7 @@ export default function FineArt() {
                     <img
                         src="images/art-7.jpeg"
                         alt="Dining Room"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -195,7 +195,7 @@ export default function FineArt() {
                     <img
                         src="images/art-8.jpeg"
                         alt="Melancholic Memory"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -216,7 +216,7 @@ export default function FineArt() {
                     <img
                         src="images/art-9.jpeg"
                         alt="Curves"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -237,7 +237,7 @@ export default function FineArt() {
                     <img
                         src="images/art-10.jpg"
                         alt="Discovery"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -260,7 +260,7 @@ export default function FineArt() {
                     <img
                         src="images/art-11.jpg"
                         alt="In a Week"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
@@ -282,7 +282,7 @@ export default function FineArt() {
                     <img
                         src="images/art-12.jpeg"
                         alt="Pressure"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>

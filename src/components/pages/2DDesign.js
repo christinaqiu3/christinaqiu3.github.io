@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../App.css';
 import Footer from "../Footer";
 import useScrollToTop from '../useScrollToTop';
@@ -16,7 +16,7 @@ export default function DDesign() {
                     <img
                         src="images/all32.png"
                         alt="marketing"
-                        className="profile-image"
+                        className="general-image"
                     />
 
                 </div>
