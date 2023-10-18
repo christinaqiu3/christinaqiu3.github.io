@@ -67,11 +67,16 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+}
 
+.social-icon-link-foot {
+    color: #32324b;
+    font-size: 36px;
+    margin: 0 12px;
 }
 
 .social-icon-link {
-    color: #32324b;
+    color: #959CF8;
     font-size: 36px;
     margin: 0 12px;
 }

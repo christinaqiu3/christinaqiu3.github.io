@@ -76,6 +76,7 @@
 
 .nav-links:hover {
     position: relative;
+    transform: translateY(-5%);
     transition: all 0.2s ease-out;
 }
 
@@ -84,7 +85,7 @@
     position: absolute;
     top: 50px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(-25%);
     font-size: 20px;
     color: var(--nav-hilighted);
 }
@@ -117,6 +118,14 @@
 button {
     background-color: rgba(255, 255, 255, 0);
     border: none;
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    transform: translateY(-5%);
+    transition: all 0.2s ease-out;
 }
 
 @media screen and (max-width: 930px) {

@@ -7,7 +7,7 @@ function Footer() {
             <div className='footer-links'>
                 <div className='social-icons'>
                     <Link
-                        className='social-icon-link email'
+                        className='social-icon-link-foot email'
                         to='mailto:chuu@seas.upenn.edu'
                         target='_blank'
                         aria-label='Email'
@@ -15,7 +15,7 @@ function Footer() {
                         <i className='fas fa-envelope-open-text' />
                     </Link>
                     <Link
-                        className='social-icon-link linkedin'
+                        className='social-icon-link-foot linkedin'
                         to='https://www.linkedin.com/in/christina-qiu-6094301b6/'
                         target='_blank'
                         aria-label='LinkedIn'
@@ -23,7 +23,7 @@ function Footer() {
                         <i className='fab fa-linkedin' />
                     </Link>
                     <Link
-                        className='social-icon-link github'
+                        className='social-icon-link-foot github'
                         to='https://github.com/christinaqiu3'
                         target='_blank'
                         aria-label='GitHub'
