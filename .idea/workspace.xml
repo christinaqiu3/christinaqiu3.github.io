@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <workItem from="1692717990405" duration="41961000" />
       <workItem from="1697421457235" duration="3650000" />
       <workItem from="1697582398417" duration="14725000" />
-      <workItem from="1697651651001" duration="1126000" />
+      <workItem from="1697651651001" duration="1741000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>
