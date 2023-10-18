@@ -29,22 +29,18 @@ export default function Modeling() {
             </div>
 
             <div className="content-abt">
-                <div className="image-container">
+                <div className="text-container">
+                    <h1 className="fade-in-text">UPGRADE Graphics Pipeline Speedrun</h1>
+                    <h2 className="fade-in-text">
+                        <br></br>
+                        Collaborated in a team of 3 to render a character walking cycle using Blender, Rigify, and Unreal.
+                        Self taught and completed an mp3 with scripted camera movement in 6 hours.
+                        <br></br><br></br>
+                    </h2>
                     <video controls autoPlay loop muted width="515">
                         <source src="images/cig.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                </div>
-                <div className="text-container">
-                    <h1 className="fade-in-text">UPGRADE Graphics Pipeline Speedrun</h1>
-                    <h2 className="fade-in-text">
-
-                        <br></br>
-                        Collaborated in a team of 3 to render a character walking cycle using Blender, Rigify, and Unreal.
-                        Self taught and completed an mp3 with scripted camera movement in 6 hours.
-
-                        <br></br><br></br>
-                    </h2>
                 </div>
             </div>
             <Footer />
