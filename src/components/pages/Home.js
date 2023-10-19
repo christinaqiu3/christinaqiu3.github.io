@@ -19,7 +19,7 @@ function Home() {
             if (screenWidth < 930) {
                 setProfileImage('images/ProfilePHalf.JPG');
             } else {
-                setProfileImage('images/ProfilePFull.jpg');
+                setProfileImage('images/ProfilePFull.JPG');
             }
         };
 
@@ -100,7 +100,7 @@ function Home() {
             <CardsA />
             </section>
 
-            <h1 className="fade-in-text"><br></br></h1>
+            <h1 className="home-heading"><br></br></h1>
 
             <Footer />
         </>
