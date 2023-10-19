@@ -8,7 +8,7 @@ export default function IslandEscapades() {
     return (
         <>
             <div className="content">
-                <h1 className="sub-heading">ISLAND ESCAPADES</h1>
+                <h1 className="page-heading">ISLAND ESCAPADES</h1>
             </div>
 
             <div className="content-abt">
@@ -16,9 +16,8 @@ export default function IslandEscapades() {
                     <img
                         src="images/all2pg.png"
                         alt="Christina Qiu"
-                        className="profile-image"
+                        className="general-image"
                     />
-
                 </div>
                 <div className="text-container">
 
@@ -30,6 +29,7 @@ export default function IslandEscapades() {
                         When the player chooses which island to go to the camera pans left or right,
                         as if they are turning the bow of a ship.
                     </h2>
+                    <br></br><br></br>
                 </div>
             </div>
 

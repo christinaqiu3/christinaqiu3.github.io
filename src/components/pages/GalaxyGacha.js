@@ -8,17 +8,15 @@ export default function GalaxyGacha() {
     return (
         <>
             <div className="content">
-                <h1 className="sub-heading">GALAXY GACHA</h1>
+                <h1 className="page-heading">GALAXY GACHA</h1>
             </div>
             <div className="content-abt">
-
                 <div className="image-container">
                     <img
                         src="images/all1pg.png"
                         alt="Galaxy Gacha"
                         className="general-image"
                     />
-
                 </div>
                 <div className="text-container">
                     <h2 className="fade-in-text">
@@ -44,12 +42,11 @@ export default function GalaxyGacha() {
                         before they drift away and are lost forever!
                         <br></br><br></br>
                     </h2>
-                    <video controls autoPlay loop muted width="515">
+                    <video controls autoPlay loop muted>
                         <source src="images/mon-vid.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-
-
+                    <br></br><br></br>
                 </div>
             </div>
             <Footer />

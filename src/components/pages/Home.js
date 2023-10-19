@@ -1,4 +1,4 @@
-
+import {useState, useEffect} from "react";
 import '../../App.css';
 import Footer from '../Footer';
 import useScrollToTop from '../useScrollToTop';
@@ -11,12 +11,33 @@ function Home() {
 
     useScrollToTop();
 
+    const [profileImage, setProfileImage] = useState('images/ProfilePHalf.JPG');
+
+    useEffect(() => {
+        const handleResize = () => {
+            const screenWidth = window.innerWidth;
+            if (screenWidth < 930) {
+                setProfileImage('images/ProfilePHalf.JPG');
+            } else {
+                setProfileImage('images/ProfilePFull.jpg');
+            }
+        };
+
+        handleResize(); // Call the function once to set the initial state
+
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
         <>
             <div className="content-abt">
                 <div className="image-container">
+
                     <img
-                        src="images/profile-pic.jpeg"
+                        src= {profileImage}
                         alt="Christina Qiu"
                         className="profile-image"
                     />
@@ -29,8 +50,8 @@ function Home() {
                         📚 I study Computer Science and Digital Media Design
                         at the University of Pennsylvania.
                         <br></br><br></br>
-                        💻 I’m a Mobile iOS developer for PennLabs, the industry relations coordinator in UPGRADE, Penn’s game development club,
-                        and a designer on the creative team for PennApps, Penn’s hackathon club.
+                        💻 Currently I’m a Mobile iOS developer for PennLabs, the industry relations coordinator in UPGRADE (Penn’s game development club),
+                        and a designer on the creative team for PennApps (Penn’s hackathon club).
                         <br></br><br></br>
                         🕹️ I am passionate about computer programming, computer graphics, human-computer interaction, virtual reality, game and media development.
                         <br></br><br></br>
@@ -79,6 +100,7 @@ function Home() {
             <CardsA />
             </section>
 
+            <h1 className="fade-in-text"><br></br></h1>
 
             <Footer />
         </>

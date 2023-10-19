@@ -204,7 +204,45 @@ button:hover {
         right: 27px;
     }
 
-    .nav-links-mobile {
+
+
+    .nav-links:hover::after {
+        content: "✦";
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all 0.2s ease-out;
+        font-size: 20px;
+        color: black;
+    }
+
+    .nav-links.active {
+        position: relative;
+    }
+
+    .nav-links.active::after {
+        content: "✦";
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all 0.2s ease-out;
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 36px;
+    }
+
+    button:hover {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        transform: translateY(-5%);
+        transition: all 0.2s ease-out;
+    }
+
+/*    .nav-links-mobile {
         display: block;
         text-align: center;
         margin: 2rem auto;
@@ -223,5 +261,5 @@ button:hover {
         background: var(--nav-hilighted);
         color: var(--nav-text);
         transition: 250ms;
-    }
+    } */
 }

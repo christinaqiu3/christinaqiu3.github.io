@@ -80,7 +80,7 @@ export default function PersonalWebsite() {
                     >
                         <div className="hover-area" ref={hoverAreaRef}></div>
                         <div className="text-description">
-                            <h1 className="home-heading">:)</h1>
+                            <h1 className="flashlight-text">:)</h1>
                         </div>
                     </div>
 
@@ -90,7 +90,7 @@ export default function PersonalWebsite() {
                         My main goal was to keep this site simple, consistent, and readable.
                     </h2>
 
-
+                    <br></br><br></br>
                 </div>
             </div>
 

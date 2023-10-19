@@ -22,6 +22,11 @@ h3{
     display: contents;
 }
 
+video {
+    max-width: 515px;
+    width: 100%;
+}
+
 
 .home-heading {
     font-size: 32px;
@@ -31,10 +36,23 @@ h3{
     background-color: var(--background);
 }
 
+.flashlight-text {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .sub-heading {
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.page-heading {
+    font-size: 24px;
+    text-align: center;
 }
 
 .home-text {
@@ -54,7 +72,7 @@ h3{
     left: 0;
     transform: translate(-50%, -50%);
     max-width: 515px;
-    width: 90%;
+    width: 100%;
     opacity: 0;
     animation: fadeEaseLeft 2s forwards;
 }
@@ -62,7 +80,7 @@ h3{
 .profile-image {
     top: 50%;
     left: 0;
-    border-radius: 5%;
+    border-radius: 25px;
     box-shadow: 0 0 20px rgb(149, 156, 248);
     transform: translate(-50%, -50%);
     object-fit: cover;
@@ -119,7 +137,7 @@ h3{
     justify-content: center;
     align-items: flex-start; /* Align items to the top */
     background-color: var(--background);
-    padding: 2rem 75px 75px;
+    padding: 2rem 75px 50px;
 }
 
 
@@ -141,7 +159,7 @@ h3{
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack elements vertically */
     justify-content: space-between;
-
+    background-color: var(--background);
 }
 
 .resume-container {
@@ -188,6 +206,8 @@ h3{
 
     .profile-image {
         //width: 50%;
+        border-radius: 25px;
+        margin-top: 1rem;
     }
 
     .image-container {
@@ -196,7 +216,16 @@ h3{
 
     .text-container {
 
-        padding-right: 2rem;
+        padding: 0;
+    }
+
+    .content-abt {
+        padding: 0 50px 0;
+    }
+
+    .home-heading {
+        padding: 0;
+        padding-top: 2rem;
     }
 
 }
@@ -236,7 +265,7 @@ h3{
     position: absolute;
     top: -50%;
     left: -250px;
-    border-radius: 50%;
+    border-radius: 25px;
     background: radial-gradient(circle at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%);
     opacity: 0;
     pointer-events: none;
