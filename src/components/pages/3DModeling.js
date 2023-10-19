@@ -13,23 +13,9 @@ export default function Modeling() {
                 <h1 className="sub-heading">3D MODELING</h1>
                 <p className="home-text"></p>
             </div>
-            <div className="content-abt">
-            <div className="text-container">
-            <h1 className="fade-in-text">Demo Reel</h1>
-            <h2 className="fade-in-text">
-                <br></br>
-                last updated: Oct 2023
-                <br></br><br></br>
-            </h2>
-            <video controls autoPlay loop muted width="515">
-                <source src="images/demoreelF copy.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-            </div>
-            </div>
 
             <div className="content-abt">
-                <div className="text-container">
+                <div className="single-col-text-container">
                     <h1 className="fade-in-text">UPGRADE Graphics Pipeline Speedrun</h1>
                     <h2 className="fade-in-text">
                         <br></br>
@@ -37,7 +23,7 @@ export default function Modeling() {
                         Self taught and completed an mp3 with scripted camera movement in 6 hours.
                         <br></br><br></br>
                     </h2>
-                    <video controls autoPlay loop muted width="515">
+                    <video controls autoPlay loop muted width="1000">
                         <source src="images/cig.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>

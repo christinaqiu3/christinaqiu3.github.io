@@ -10,7 +10,7 @@ function CardsA() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/demoreelF copy.mp4'
+                            src='images/cig.mp4'
                             text='Using Maya, Blender, and Unreal engine.'
                             label='3D Modeling'
                             path='/modeling'

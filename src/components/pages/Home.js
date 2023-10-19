@@ -83,6 +83,17 @@ function Home() {
                         </Link>
                     </h2>
                 </div>
+                <div className="single-col-text-container">
+                    <h1 className="home-heading"><br></br>Demo Reel</h1>
+                    <h2 className="home-sub-heading">
+                        last updated: Oct 2023
+                        <br></br><br></br>
+                    </h2>
+                    <video controls autoPlay loop muted width="1000">
+                        <source src="images/demoreelF copy.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
 
             <section id="game">

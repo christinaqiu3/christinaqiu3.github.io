@@ -121,7 +121,7 @@ export default function FineArt() {
 
                 <div className="image-container">
                     <img
-                        src="images/art-6.jpg"
+                        src="images/art-6.jpeg"
                         alt="Confucius's Life"
                         className="general-image"
                     />

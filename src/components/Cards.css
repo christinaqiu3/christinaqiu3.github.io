@@ -125,4 +125,7 @@ h1 {
     .cards {
         padding: 0;
     }
+    .cards__item {
+        margin-bottom: 2rem;
+    }
 }

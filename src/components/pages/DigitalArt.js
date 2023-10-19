@@ -95,7 +95,7 @@ export default function DigitalArt() {
 
                 <div className="image-container">
                     <img
-                        src="images/sun.png"
+                        src="images/sun.jpeg"
                         alt="Sun"
                         className="general-image"
                     />

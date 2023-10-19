@@ -68,7 +68,7 @@ export default function PersonalWebsite() {
                         <br></br><br></br>
                         I am still quite proud of the pixel art I made, as this was my first venture into this art style.
                         <br></br><br></br>
-                        Test it out below!
+                        Test it out below! (only works with a computer cursor)
                         <br></br><br></br>
                     </h2>
 
@@ -87,7 +87,7 @@ export default function PersonalWebsite() {
 
                     <h2 className="fade-in-text">
                         <br></br><br></br>
-                        My main goal was to keep this site simple, consistent, and readable.
+                        Can you guess what my favorite color is ;)
                     </h2>
 
                     <br></br><br></br>
