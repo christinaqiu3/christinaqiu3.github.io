@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@xtuc/long/dist/.long.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bonjour-service/dist/lib/.browser.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bonjour-service/dist/lib/.registry.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint-plugin-import/node_modules/doctrine/.LICENSE 2.closure-compiler.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.8eee858b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.8eee858b.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b13bf9f1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b13bf9f1.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b13bf9f1.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,7 @@
       <workItem from="1697421457235" duration="3650000" />
       <workItem from="1697582398417" duration="14725000" />
       <workItem from="1697651651001" duration="11959000" />
-      <workItem from="1697678009932" duration="2115000" />
+      <workItem from="1697678009932" duration="3868000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>
