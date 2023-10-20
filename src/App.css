@@ -195,6 +195,7 @@ video {
     text-align: left;
     padding-top: 20px;
     opacity: 0;
+    font-family: 'Mukta', sans-serif;
     animation: fadeEaseRight 2s forwards;
 }
 

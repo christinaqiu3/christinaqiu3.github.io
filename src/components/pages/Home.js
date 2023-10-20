@@ -47,15 +47,52 @@ function Home() {
                     <h1 className="fade-in-text">Hi, my name is Christina Qiu.</h1>
                     <h2 className="fade-in-text">
                         <br></br>
-                        📚 I study Computer Science and Digital Media Design
-                        at the University of Pennsylvania.
+                        📚 I study Computer Science and&nbsp;
+                        <Link
+                            className='resume-link'
+                            to='http://cg.cis.upenn.edu/dmd.html'
+                            target='_blank'
+                            aria-label='DMD'
+                        >
+                            Digital Media Design
+                        </Link>
+                        &nbsp;at the University of Pennsylvania.
                         <br></br><br></br>
-                        💻 Currently I’m a Mobile iOS developer for PennLabs, the industry relations coordinator in UPGRADE (Penn’s game development club),
-                        and a designer on the creative team for PennApps (Penn’s hackathon club).
+                        💻 Currently I’m a Mobile iOS developer for&nbsp;
+                        <Link
+                            className='resume-link'
+                            to='https://pennlabs.org/'
+                            target='_blank'
+                            aria-label='PennLabs'
+                        >
+                            PennLabs
+                        </Link>
+
+                        , the industry relations coordinator and a game developer for&nbsp;
+                        <Link
+                            className='resume-link'
+                            to='https://magazine.seas.upenn.edu/fall-2022/upgrade/'
+                            target='_blank'
+                            aria-label='UPGRADE'
+                        >
+                            UPGRADE
+                        </Link>
+                        ,
+                        and a designer on the creative team for&nbsp;
+                        <Link
+                            className='resume-link'
+                            to='https://pennapps.com/'
+                            target='_blank'
+                            aria-label='PennApps'
+                        >
+                            PennApps
+                        </Link>
+                        .
                         <br></br><br></br>
                         🕹️ I am passionate about computer programming, computer graphics, human-computer interaction, virtual reality, game and media development.
                         <br></br><br></br>
                         👋 Feel free to look around!
+
                         <br></br><br></br>
                         <Link
                             className='social-icon-link email'
