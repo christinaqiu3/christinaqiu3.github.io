@@ -120,7 +120,7 @@ function Home() {
                         </Link>
                     </h2>
                 </div>
-                <div className="single-col-text-container">
+                <div className="single-col-text-container-home">
                     <h1 className="home-heading"><br></br>Demo Reel</h1>
                     <h2 className="home-sub-heading">
                         last updated: Oct 2023
@@ -146,9 +146,10 @@ function Home() {
             <section id="art">
             <h1 className="home-heading">Artwork</h1>
             <CardsA />
+
             </section>
 
-            <h1 className="home-heading"><br></br></h1>
+            <div className="free-space"><br></br></div>
 
             <Footer />
         </>

@@ -16,7 +16,7 @@ export default function Modeling() {
 
             <div className="content-abt">
                 <div className="single-col-text-container">
-                    <h1 className="fade-in-text">UPGRADE Graphics Pipeline Speedrun</h1>
+                    <h1 className="fade-in-text"><br></br>UPGRADE Graphics Pipeline Speedrun</h1>
                     <h2 className="fade-in-text">
                         <br></br>
                         Collaborated in a team of 3 to render a character walking cycle using Blender, Rigify, and Unreal.

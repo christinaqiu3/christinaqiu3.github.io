@@ -23,8 +23,9 @@ h3{
 }
 
 video {
-    //max-width: 515px;
+    max-width: 1000px;
     width: 100%;
+    align-self: center;
 }
 
 
@@ -41,7 +42,6 @@ video {
     text-align: center;
     margin: -1rem;
     color: var(--heading);
-    background-color: var(--background);
 }
 
 .flashlight-text {
@@ -149,6 +149,14 @@ video {
     padding: 2rem 75px 50px;
 }
 
+.free-space {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    background-color: var(--background);
+}
+
 
 /*about*/
 
@@ -169,6 +177,11 @@ video {
     flex-direction: column; /* Stack elements vertically */
     justify-content: space-between;
     background-color: var(--background);
+}
+
+.single-col-text-container-home {
+    max-width: 750px;
+    align-content: center;
 }
 
 .single-col-text-container {
@@ -248,17 +261,30 @@ video {
         padding: 0;
     }
 
+    .single-col-text-container-home {
+        padding-bottom: 1rem;
+        margin-top: -2rem;
+    }
+
     .single-col-text-container {
-        padding: 2rem 0 2rem;
+        padding-bottom: 1rem;
     }
 
     .content-abt {
-        padding: 0 50px 0;
+        padding: 0 2rem 0;
     }
 
     .home-heading {
         padding: 0;
         padding-top: 2rem;
+    }
+
+    .home-sub-heading {
+        padding-top: 1rem;
+    }
+
+    video {
+
     }
 
 }
@@ -296,5 +322,6 @@ video {
 .flashlight-off {
     background-color: black;
 }
+
 
 
