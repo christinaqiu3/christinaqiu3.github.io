@@ -126,10 +126,15 @@ function Home() {
                         last updated: Oct 2023
                         <br></br><br></br>
                     </h2>
-                    <video controls autoPlay loop muted width="1000">
-                        <source src="images/demoreelF copy.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+                    <iframe
+                        title="demo reel"
+                        src="https://player.vimeo.com/video/875398564?h=856ee31f75"
+                        width="640"
+                        height="564"
+                        frameBorder="0"
+                        allow="autoplay; loop; fullscreen"
+                        allowFullScreen
+                    ></iframe>
                 </div>
             </div>
 

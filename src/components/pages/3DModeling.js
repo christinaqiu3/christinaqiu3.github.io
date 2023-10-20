@@ -15,6 +15,22 @@ export default function Modeling() {
             </div>
 
             <div className="content-abt">
+
+                <div className="single-col-text-container">
+                    <h2 className="fade-in-text">
+                        <br></br>Working on improving my skills in
+                        modeling, texturing, rendering, physically-based shading,
+                        lighting, rigging, skinning and deformation, and dynamics (i.e. cloth and hair).
+                        <br></br><br></br>
+                    </h2>
+                </div>
+
+                <img
+                    src="images/all3d.png"
+                    alt=""
+                    className="modeling-images"
+                />
+
                 <div className="single-col-text-container">
                     <h1 className="fade-in-text"><br></br>UPGRADE Graphics Pipeline Speedrun</h1>
                     <h2 className="fade-in-text">

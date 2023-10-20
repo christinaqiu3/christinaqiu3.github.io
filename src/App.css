@@ -28,6 +28,10 @@ video {
     align-self: center;
 }
 
+iframe {
+    margin: -6rem;
+    //width: 750px;
+}
 
 .home-heading {
     font-size: 32px;
@@ -237,7 +241,16 @@ video {
     align-items: center;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+}
 
+.modeling-images {
+    width: 1000px;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fadeEaseLeft 2s forwards;
+    margin: 1rem 0 1rem;
 }
 
 @media screen and (max-width: 930px) {
@@ -285,6 +298,15 @@ video {
 
     video {
 
+    }
+
+    .modeling-images {
+        width: 100%;
+    }
+
+    iframe {
+        width: 400px;
+        margin: -11rem -6rem;
     }
 
 }
