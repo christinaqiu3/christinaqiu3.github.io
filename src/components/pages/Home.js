@@ -6,6 +6,7 @@ import {Link} from "react-router-dom";
 import CardsGD from "../CardsGD";
 import CardsWD from "../CardsWD";
 import CardsA from "../CardsA";
+import CardsCG from "../CardsCG";
 
 function Home() {
 
@@ -118,6 +119,14 @@ function Home() {
                         >
                             <i className='fab fa-github' />
                         </Link>
+                        <Link
+                            className='social-icon-link resume'
+                            to='https://docs.google.com/document/d/1T4t-cWnUCJLQr6aDtaHePDn3ETmcyxLqvvNcqZW6Z5Y/edit#heading=h.s7eubbvdu4vb'
+                            target='_blank'
+                            aria-label='Resume'
+                        >
+                            <i className='fas fa-file-invoice' />
+                        </Link>
                     </h2>
                 </div>
                 <div className="single-col-text-container-home">
@@ -138,13 +147,18 @@ function Home() {
                 </div>
             </div>
 
+            <section id="graphics">
+                <h1 className="home-heading">Computer Graphics</h1>
+                <CardsCG />
+            </section>
+
             <section id="game">
-            <h1 className="home-heading">Game Dev</h1>
+            <h1 className="home-heading">Game Development</h1>
             <CardsGD />
             </section>
 
             <section id="web">
-            <h1 className="home-heading">Web Dev</h1>
+            <h1 className="home-heading">Web Development</h1>
             <CardsWD />
             </section>
 

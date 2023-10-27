@@ -12,6 +12,7 @@ function CardItem(props) {
                 target={isExternalLink ? '_blank' : '_self'} // Set target based on link type
                 rel={isExternalLink ? 'noopener noreferrer' : ''}
             >
+
                 <figure className='cards__item__pic-wrap' data-category={props.label}>
                     {/* Use the appropriate element based on the content (video or image) */}
                     {props.src.endsWith('.mp4') ? (
@@ -21,16 +22,13 @@ function CardItem(props) {
                             autoPlay
                             loop
                             muted
+                            playsInline // Add the playsInline attribute here
                         >
                             <source src={props.src} type='video/mp4' />
                             Your browser does not support the video tag.
                         </video>
                     ) : (
-                        <img
-                            className='cards__item__img'
-                            alt=''
-                            src={props.src}
-                        />
+                        <img className='cards__item__img' alt='' src={props.src} />
                     )}
                 </figure>
                 <div className='cards__item__info'>

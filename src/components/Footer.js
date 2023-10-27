@@ -30,10 +30,18 @@ function Footer() {
                     >
                         <i className='fab fa-github' />
                     </Link>
+                    <Link
+                        className='social-icon-link-foot resume'
+                        to='https://docs.google.com/document/d/1T4t-cWnUCJLQr6aDtaHePDn3ETmcyxLqvvNcqZW6Z5Y/edit#heading=h.s7eubbvdu4vb'
+                        target='_blank'
+                        aria-label='Resume'
+                    >
+                        <i className='fas fa-file-invoice' />
+                    </Link>
                 </div>
                 </div>
                 <div class='social-media-wrap'>
-                    <small class='website-rights'> Made with ♥︎ by by Christina Qiu</small>
+                    <small class='website-rights'> Made with ♥︎ by Christina Qiu</small>
                 </div>
         </div>
     );

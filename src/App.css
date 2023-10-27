@@ -191,6 +191,7 @@ iframe {
 .single-col-text-container {
     max-width: 750px;
     align-content: center;
+
 }
 
 .resume-container {
@@ -345,5 +346,17 @@ iframe {
     background-color: black;
 }
 
+
+@media only screen and (min-width: 2000px) {
+
+
+    .single-col-text-container-home {
+        margin: 0 1000px;
+    }
+
+    .single-col-text-container {
+        margin: 0 500px;
+    }
+}
 
 

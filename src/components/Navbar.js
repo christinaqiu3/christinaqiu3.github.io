@@ -89,6 +89,11 @@ function Navbar() {
                             </a>
                         </li>
                         <li className='nav-item'>
+                            <a href='#graphics' className='nav-links' onClick={closeMobileMenu}>
+                                Graphics
+                            </a>
+                        </li>
+                        <li className='nav-item'>
                             <a href='#game' className='nav-links' onClick={closeMobileMenu}>
                                 Game Dev
                             </a>
