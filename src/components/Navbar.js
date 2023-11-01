@@ -26,27 +26,27 @@ function Navbar() {
         showButton();
     }, []);
 
-    useEffect(() => {
-        const smoothScroll = (targetId) => {
-            const targetElement = document.getElementById(targetId);
-            if (targetElement) {
-                const offset = 8 * parseFloat(getComputedStyle(document.documentElement).fontSize); // 8rem in pixels
-                window.scrollTo({
-                    top: targetElement.offsetTop - offset,
-                    behavior: 'smooth',
-                });
-            }
-        };
-
-        // Add smooth scroll behavior when clicking on anchor links
-        document.querySelectorAll('.nav-links').forEach((link) => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = e.target.getAttribute('href').substring(1); // Get the target ID without the '#'
-                smoothScroll(targetId);
-            });
-        });
-    }, []);
+    // useEffect(() => {
+    //     const smoothScroll = (targetId) => {
+    //         const targetElement = document.getElementById(targetId);
+    //         if (targetElement) {
+    //             const offset = 8 * parseFloat(getComputedStyle(document.documentElement).fontSize); // 8rem in pixels
+    //             window.scrollTo({
+    //                 top: targetElement.offsetTop - offset,
+    //                 behavior: 'smooth',
+    //             });
+    //         }
+    //     };
+    //
+    //     // Add smooth scroll behavior when clicking on anchor links
+    //     document.querySelectorAll('.nav-links').forEach((link) => {
+    //         link.addEventListener('click', (e) => {
+    //             e.preventDefault();
+    //             const targetId = e.target.getAttribute('href').substring(1); // Get the target ID without the '#'
+    //             smoothScroll(targetId);
+    //         });
+    //     });
+    // }, []);
 
     const [emoji, setEmoji] = useState("🌕");
 
@@ -84,30 +84,21 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <a href='#about' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to="/" className='nav-links' onClick={closeMobileMenu}>
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li className='nav-item'>
-                            <a href='#graphics' className='nav-links' onClick={closeMobileMenu}>
-                                Graphics
-                            </a>
+                            <Link to="/projects" className='nav-links' onClick={closeMobileMenu}>
+                                Projects
+                            </Link>
                         </li>
                         <li className='nav-item'>
-                            <a href='#game' className='nav-links' onClick={closeMobileMenu}>
-                                Game Dev
-                            </a>
+                            <Link to="/portfolio" className='nav-links' onClick={closeMobileMenu}>
+                                Portfolio
+                            </Link>
                         </li>
-                        <li className='nav-item'>
-                            <a href='#web' className='nav-links' onClick={closeMobileMenu}>
-                                Web Dev
-                            </a>
-                        </li>
-                        <li className='nav-item'>
-                            <a href='#art' className='nav-links' onClick={closeMobileMenu}>
-                                Artwork
-                            </a>
-                        </li>
+
 
                         <button onClick={toggleDarkMode}>{emoji}</button>
 

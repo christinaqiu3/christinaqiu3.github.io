@@ -15,12 +15,6 @@ function CardsA() {
                             label='3D Modeling'
                             path='/modeling'
                         />
-                        <CardItem
-                            src='images/marketing.mp4'
-                            text='Using Canva and Microsoft PowerPoint to advertise events and present studies!'
-                            label='2D Design'
-                            path='/2ddesign'
-                        />
                     </ul>
                     <ul className='cards__items'>
 

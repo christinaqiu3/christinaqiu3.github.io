@@ -16,6 +16,8 @@ import Modeling from './components/pages/3DModeling';
 import FineArt from './components/pages/FineArt';
 import CHOP from './components/pages/CHOP';
 import DDesign from './components/pages/2DDesign';
+import Projects from './components/pages/Projects';
+import Portfolio from './components/pages/Portfolio';
 
 function App() {
 
@@ -25,6 +27,10 @@ function App() {
             <Navbar/>
             <Routes>
                 <Route exact path="/" element={<Home />}/>
+                <Route exact path="/projects" element={<Projects />}/>
+                <Route exact path="/portfolio" element={<Portfolio />}/>
+
+
                 <Route exact path='/gamedev' element={<GameDev />}/>
                 <Route exact path='/webdev' element={<WebDev />}/>
                 <Route exact path='/artwork' element={<Artwork />}/>

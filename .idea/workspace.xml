@@ -2,40 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change afterPath="$PROJECT_DIR$/build/robots 2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/all3d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/demoreel_update_10_20 copy.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package 2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.vcs 2.xml.icloud" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.robots 2.txt.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/11.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/12.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/13.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/5.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/7.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/8.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/.index 3.cjs.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/.index 4.cjs.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@jest/core/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@testing-library/dom/types/get-node-text.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/all3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/all3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/3DModeling.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/3DModeling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardsA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/.bin/loose-envify" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/history.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/router.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/router.cjs.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/router.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/router.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/router.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/router.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/router.umd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/router.umd.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/dist/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/history.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/@remix-run/router/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/js-tokens/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/js-tokens/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/js-tokens/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/js-tokens/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/js-tokens/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/loose-envify/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/loose-envify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/loose-envify/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/loose-envify/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/loose-envify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/loose-envify/loose-envify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/loose-envify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/loose-envify/replace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-server-legacy.node.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-server.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-server.node.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-test-utils.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/cjs/react-dom.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/profiling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/server.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/server.node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/test-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/umd/react-dom-server-legacy.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/umd/react-dom-server-legacy.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/umd/react-dom-server.browser.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/umd/react-dom-test-utils.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/umd/react-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/umd/react-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-dom/umd/react-dom.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/dom.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/react-router-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/react-router-dom.development.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/react-router-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/react-router-dom.production.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/server.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/server.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/umd/react-router-dom.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/umd/react-router-dom.development.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/umd/react-router-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/dist/umd/react-router-dom.production.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/server.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router-dom/server.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/lib/components.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/lib/context.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/lib/hooks.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/react-router.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/react-router.development.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/react-router.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/react-router.production.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/umd/react-router.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/umd/react-router.development.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/umd/react-router.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/dist/umd/react-router.production.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react-router/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react-jsx-dev-runtime.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react-jsx-dev-runtime.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react-jsx-dev-runtime.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react-jsx-runtime.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react-jsx-runtime.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react-jsx-runtime.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react.shared-subset.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/cjs/react.shared-subset.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/jsx-dev-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/jsx-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/react.shared-subset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/umd/react.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/umd/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/react/umd/react.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/cjs/scheduler-unstable_mock.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/cjs/scheduler-unstable_mock.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/cjs/scheduler-unstable_post_task.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/cjs/scheduler-unstable_post_task.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/cjs/scheduler.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/cjs/scheduler.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/umd/scheduler-unstable_mock.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/umd/scheduler-unstable_mock.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/umd/scheduler.development.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/umd/scheduler.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/umd/scheduler.profiling.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/unstable_mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scheduler/unstable_post_task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package 2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +277,7 @@
       <workItem from="1697698290349" duration="6708000" />
       <workItem from="1697735943010" duration="1631000" />
       <workItem from="1697754674891" duration="14347000" />
+      <workItem from="1698775944634" duration="2749000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>

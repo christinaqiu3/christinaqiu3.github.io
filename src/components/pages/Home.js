@@ -147,27 +147,6 @@ function Home() {
                 </div>
             </div>
 
-            <section id="graphics">
-                <h1 className="home-heading">Computer Graphics</h1>
-                <CardsCG />
-            </section>
-
-            <section id="game">
-            <h1 className="home-heading">Game Development</h1>
-            <CardsGD />
-            </section>
-
-            <section id="web">
-            <h1 className="home-heading">Web Development</h1>
-            <CardsWD />
-            </section>
-
-            <section id="art">
-            <h1 className="home-heading">Artwork</h1>
-            <CardsA />
-
-            </section>
-
             <div className="free-space"><br></br></div>
 
             <Footer />
