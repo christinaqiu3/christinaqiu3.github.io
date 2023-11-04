@@ -14,6 +14,7 @@ function CardsGD() {
                             Submitted as my CIS 1200 final project.
                             Click here to visit the repo!
                             '
+                            skills={['Java']}
                             label='Alice in Dungeonland'
                             path='https://github.com/christinaqiu3/AliceJava'
                         />
@@ -22,6 +23,7 @@ function CardsGD() {
                             src='images/vamp3tryFINAL.mp4'
                             text='Designed game UI and a monster with a timing based minigame coded in Unity.
                             Click to see more!'
+                            skills={['Unity', 'Procreate']}
                             label='Galaxy Gacha'
                             path='/galaxygacha'
                         />
@@ -33,6 +35,7 @@ function CardsGD() {
                             src='images/MMM4.mp4'
                             text='Designed and developed visual novel in 24 hours with 2 team members for the UPGRADE
                             Halloween Game Jam. Won “Best Production Value – Art & Sound” and “Best Use of Trick Theme” Awards.'
+                            skills={['Unity', 'Procreate']}
                             label='Mansplain Manipulate Manslaughter'
                             path='https://ooorz.itch.io/mansplain-manipulate-manslaughter'
                         />
@@ -41,6 +44,7 @@ function CardsGD() {
                             src='images/FF4.mp4'
                             text='The UPGRADE minigame collection for which I and 2 team members made an endless runner game.
                             Click for more!'
+                            skills={['Unity', 'Procreate']}
                             label='Island Escapades'
                             path='/islandescapades'
                         />

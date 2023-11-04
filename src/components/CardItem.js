@@ -4,6 +4,9 @@ import {Link} from "react-router-dom";
 function CardItem(props) {
     const isExternalLink = /^https?:\/\//.test(props.path); // Check if it's an external link
 
+    const skills = props.skills || []; // Ensure skills is an array or default to an empty array
+
+
     return (
         <li className='cards__item'>
             <Link
@@ -33,14 +36,18 @@ function CardItem(props) {
                 </figure>
                 <div className='cards__item__info'>
                     <h5 className='cards__item__text'>{props.text}</h5>
+                    <div className='rounded-rectangle-container'>
+                        {skills.map((skill, index) => (
+                            <div key={index} className='custom-rounded-rectangle'>
+                                {skill}
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
             </Link>
         </li>
     );
 }
-
-
-
 
 export default CardItem;

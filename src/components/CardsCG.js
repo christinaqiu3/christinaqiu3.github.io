@@ -14,6 +14,7 @@ function CardsCG() {
                             text='A mini Maya application that parses OBJ files into Half-Edge meshes,
                             allowing edge splitting, face triangulation, and smoothening via Catmull-Clark subdivision.
                             Utilizing a JSON skeleton, performs distance-based skinning for mesh deformation.' //extrusion
+                            skills={['C++', 'OpenGL', 'Qt']}
                             label='Half-Edge Mesh & Skinning'
                             //path='/'
                         />
@@ -22,6 +23,7 @@ function CardsCG() {
                             text='Built a 3D model to 2D image rasterizer using polygon triangulation, perspective projection, and texture and normal mapping.
 Coded custom Vertex and Post-Processing GLSL shaders to apply coloration effects to 3D model surfaces. Used QT to build UI.
 '
+                            skills={['C++', 'OpenGL', 'Qt']}
                             label='Rasterizer & Custom GLSL Shaders'
                             //path='/'
                         />
@@ -33,6 +35,7 @@ Coded custom Vertex and Post-Processing GLSL shaders to apply coloration effects
                             text='Developed a tree data structure with transformation matrices using C++ pointers,
                             polymorphism, and linear algebra, enabling interactive manipulation of a humanoid puppet
                             within the GUI interface.'
+                            skills={['C++', 'OpenGL', 'Qt']}
                             label='Configurable Scene Graph'
                             //path='/fineart'
                         />
@@ -40,7 +43,7 @@ Coded custom Vertex and Post-Processing GLSL shaders to apply coloration effects
                             src='images/24hrAnim4.mp4'
                             text='Developed essential 3D character animation, model creation, and camera work
                             with a team of 5 to produce a 3D animation.
-'
+'skills={['Blender', 'Procreate']}
                             label='24 HOURS Animation Contest'
                             path='https://youtu.be/AQ-fSgDwUH0?si=4LZSYvHCACmTHB_g'
                         />

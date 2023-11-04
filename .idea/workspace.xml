@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change afterPath="$PROJECT_DIR$/public/images/24hrAnim.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/24hrAnim2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/24hrAnim3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/24hrAnim4.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cube.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cube2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cube3.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/marioR.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/minimaya copy.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/phineas2.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardsA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsA.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardsCG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsCG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardsGD.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsGD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardsWD.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsWD.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +132,7 @@
       <workItem from="1697754674891" duration="14347000" />
       <workItem from="1698775944634" duration="2971000" />
       <workItem from="1698938359304" duration="49000" />
-      <workItem from="1699032368644" duration="8244000" />
+      <workItem from="1699032368644" duration="11347000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>

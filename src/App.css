@@ -31,6 +31,8 @@ video {
 iframe {
     margin: -6rem;
     //width: 750px;
+    //border-radius: 20px;
+    //overflow: hidden;
 }
 
 .home-heading {
@@ -359,4 +361,18 @@ iframe {
     }
 }
 
+.cards__item__info .rounded-rectangle-container {
+    align-self: flex-end;
+}
 
+.custom-rounded-rectangle {
+    display: inline-block;
+    padding: 8px 16px; /* Adjust padding according to your preference */
+    border-radius: 20px; /* Adjust border-radius to control the roundness of the rectangle */
+    border: 2px solid var(--nav-background); /* Border color */
+    margin: 10px 5px 0px;
+    background-color: black;
+    //box-shadow: 0 0 20px rgb(149, 156, 248);
+    color: var(--nav-background);
+    align-self: flex-end;
+}

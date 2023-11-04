@@ -13,12 +13,14 @@ function CardsWD() {
                             src='images/pennapps-vid.mp4'
                             text='Worked on the PennApps creative team to design
                             the 2023 PennApps hackathon website on Figma. Click to visit the site!'
+                            skills={['Figma']}
                             label='PennApps 2023 Website'
                             path='https://2023f.pennapps.com/'
                         />
                         <CardItem
                             src='images/fv5.mp4'
                             text='Created this website from scratch using Figma and ReactJS. Click here to take a look at my design process!'
+                            skills={["Javascipt", 'React', "CSS", 'Figma']}
                             label='My Personal Website'
                             path='/personalwebsite'
                         />

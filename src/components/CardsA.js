@@ -11,7 +11,8 @@ function CardsA() {
 
                         <CardItem
                             src='images/cig.mp4'
-                            text='Using Maya, Blender, and Unreal engine.'
+                            text='3D modeling and animation projects.'
+                            skills={['Blender', 'Maya', 'Unreal Engine']}
                             label='3D Modeling'
                             path='/modeling'
                         />

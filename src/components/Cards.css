@@ -96,6 +96,7 @@ h1 {
 
 .cards__item__info {
     padding: 20px 30px 30px;
+    flex: 1;
 }
 
 
