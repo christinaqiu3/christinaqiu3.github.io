@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import './Navbar.css';
 //import {Button} from "./Button";
 //import {NavLink} from 'react-router-dom';
@@ -76,27 +76,27 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu} >
+                    <NavLink to="/" className="navbar-logo" onClick={closeMobileMenu} >
                         CHRISTINA QIU
-                    </Link>
+                    </NavLink>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                            <NavLink to="/" className='nav-links' onClick={closeMobileMenu}>
                                 About
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/projects" className='nav-links' onClick={closeMobileMenu}>
+                            <NavLink to="/projects" className='nav-links' onClick={closeMobileMenu}>
                                 Projects
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/portfolio" className='nav-links' onClick={closeMobileMenu}>
+                            <NavLink to="/portfolio" className='nav-links' onClick={closeMobileMenu}>
                                 Portfolio
-                            </Link>
+                            </NavLink>
                         </li>
 
 

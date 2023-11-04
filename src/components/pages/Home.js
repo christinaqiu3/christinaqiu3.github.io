@@ -131,10 +131,10 @@ function Home() {
                 </div>
                 <div className="single-col-text-container-home">
                     <h1 className="home-heading"><br></br>Demo Reel</h1>
-                    <h2 className="home-sub-heading">
-                        last updated: Oct 2023
-                        <br></br><br></br>
-                    </h2>
+                    {/*<h2 className="home-sub-heading">*/}
+                    {/*    last updated: Oct 2023*/}
+                    {/*    <br></br><br></br>*/}
+                    {/*</h2>*/}
                     <iframe
                         title="demo reel"
                         src="https://player.vimeo.com/video/875398564?h=856ee31f75"

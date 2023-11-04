@@ -88,7 +88,7 @@
     transform: translateX(-50%) translateY(-25%);
     transition: all 0.2s ease-out;
     font-size: 20px;
-    color: black;
+    color: white;
 }
 
 .nav-links.active {
@@ -98,11 +98,13 @@
 .nav-links.active::after {
     content: "✦";
     position: absolute;
-    top: 50px;
+    top: 45px;
     left: 50%;
     transform: translateX(-50%);
     transition: all 0.2s ease-out;
     font-size: 20px;
+
+
 }
 
 .fa-bars {
