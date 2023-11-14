@@ -20,17 +20,14 @@ function CardsGD() {
                             path='/ggg'
                         />
 
-                        <CardItem
-                            src='images/chop3.mp4'
-                            text='Developing an educational Unity C# game to improve Informed Assent for children with Down syndrome in medical studies.
-                            Click to see design doc!'
-                            skills={['Unity', 'C#', 'Procreate']}
-                            label='CHOP'
-                            path='/CHOP'
-                        />
-
-                    </ul>
-                    <ul className='cards__items'>
+                        {/*<CardItem*/}
+                        {/*    src='images/chop3.mp4'*/}
+                        {/*    text='Developing an educational Unity C# game to improve Informed Assent for children with Down syndrome in medical studies.*/}
+                        {/*    Click to see design doc!'*/}
+                        {/*    skills={['Unity', 'C#', 'Procreate']}*/}
+                        {/*    label='CHOP'*/}
+                        {/*    path='/CHOP'*/}
+                        {/*/>*/}
 
                         <CardItem
                             src='images/Alice2.mp4'
@@ -43,6 +40,11 @@ function CardsGD() {
                             path='https://github.com/christinaqiu3/AliceJava'
                         />
 
+                    </ul>
+                    <ul className='cards__items'>
+
+
+
                         <CardItem
                             src='images/vamp3tryFINAL.mp4'
                             text='Designed game UI and a monster with a timing based minigame coded in Unity.
@@ -51,9 +53,6 @@ function CardsGD() {
                             label='Galaxy Gacha'
                             path='/galaxygacha'
                         />
-
-                    </ul>
-                    <ul className='cards__items'>
 
                         <CardItem
                             src='images/MMM4.mp4'
@@ -64,14 +63,19 @@ function CardsGD() {
                             path='https://ooorz.itch.io/mansplain-manipulate-manslaughter'
                         />
 
-                        <CardItem
-                            src='images/FF4.mp4'
-                            text='The UPGRADE minigame collection for which I and 2 team members made an endless runner game.
-                            Click for more!'
-                            skills={['Unity', 'Procreate']}
-                            label='Island Escapades'
-                            path='/islandescapades'
-                        />
+                    </ul>
+                    <ul className='cards__items'>
+
+
+
+                        {/*<CardItem*/}
+                        {/*    src='images/FF4.mp4'*/}
+                        {/*    text='The UPGRADE minigame collection for which I and 2 team members made an endless runner game.*/}
+                        {/*    Click for more!'*/}
+                        {/*    skills={['Unity', 'Procreate']}*/}
+                        {/*    label='Island Escapades'*/}
+                        {/*    path='/islandescapades'*/}
+                        {/*/>*/}
 
                     </ul>
                 </div>
