@@ -18,6 +18,7 @@ import CHOP from './components/pages/CHOP';
 import DDesign from './components/pages/2DDesign';
 import Projects from './components/pages/Projects';
 import Portfolio from './components/pages/Portfolio';
+import GGG from './components/pages/GGG';
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
                 <Route exact path='/fineart' element={<FineArt />} />
                 <Route exact path='/CHOP' element={<CHOP />} />
                 <Route exact path='/2ddesign' element={<DDesign />} />
+                <Route exact path='/ggg' element={<GGG />} />
             </Routes>
         </Router>
     </>

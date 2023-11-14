@@ -1,11 +1,12 @@
 import {useState, useEffect} from 'react';
-import {Link, NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './Navbar.css';
 //import {Button} from "./Button";
 //import {NavLink} from 'react-router-dom';
 
 function Navbar() {
     const [click, setClick] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(false);
     const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
@@ -26,29 +27,7 @@ function Navbar() {
         showButton();
     }, []);
 
-    // useEffect(() => {
-    //     const smoothScroll = (targetId) => {
-    //         const targetElement = document.getElementById(targetId);
-    //         if (targetElement) {
-    //             const offset = 8 * parseFloat(getComputedStyle(document.documentElement).fontSize); // 8rem in pixels
-    //             window.scrollTo({
-    //                 top: targetElement.offsetTop - offset,
-    //                 behavior: 'smooth',
-    //             });
-    //         }
-    //     };
-    //
-    //     // Add smooth scroll behavior when clicking on anchor links
-    //     document.querySelectorAll('.nav-links').forEach((link) => {
-    //         link.addEventListener('click', (e) => {
-    //             e.preventDefault();
-    //             const targetId = e.target.getAttribute('href').substring(1); // Get the target ID without the '#'
-    //             smoothScroll(targetId);
-    //         });
-    //     });
-    // }, []);
-
-    const [emoji, setEmoji] = useState("🌕");
+    //const [emoji, setEmoji] = useState("🌕");
 
     window.addEventListener('resize', showButton);
 
@@ -68,7 +47,8 @@ function Navbar() {
             root.style.setProperty('--heading', '#959CF8');
             //root.style.setProperty('--nav-background', '#656FC8');
         }
-        setEmoji(isDarkMode ? "🌕" : "🌑");
+        setIsDarkMode(!isDarkMode);
+        //setEmoji(isDarkMode ? "☀️" : "🌙");
         root.classList.toggle('dark-mode');
     };
 
@@ -100,7 +80,9 @@ function Navbar() {
                         </li>
 
 
-                        <button onClick={toggleDarkMode}>{emoji}</button>
+                        <button onClick={toggleDarkMode} className="LD">
+                            <img src={isDarkMode ? "images/icons8-moon-and-stars-48.png" : "images/icons8-sun-48.png"} alt="Sun/Moon" width="28" height="28" className="LD-image"/>
+                        </button>
 
                         <br></br><br></br>
                     </ul>

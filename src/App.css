@@ -28,11 +28,21 @@ video {
     align-self: center;
 }
 
+.center-div {
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 iframe {
     margin: -6rem;
     //width: 750px;
     //border-radius: 20px;
     //overflow: hidden;
+
 }
 
 .home-heading {
@@ -41,6 +51,14 @@ iframe {
     padding-bottom: 20px;
     color: var(--heading);
     background-color: var(--background);
+}
+
+.page-bottom-heading {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: var(--heading);
+    //background-color: var(--background);
 }
 
 .home-sub-heading {
@@ -291,6 +309,11 @@ iframe {
     }
 
     .home-heading {
+        padding: 0;
+        padding-top: 2rem;
+    }
+
+    .page-bottom-heading{
         padding: 0;
         padding-top: 2rem;
     }

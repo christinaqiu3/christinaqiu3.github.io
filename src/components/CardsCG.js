@@ -14,7 +14,7 @@ function CardsCG() {
                             text='A mini Maya application that parses OBJ files into Half-Edge meshes,
                             allowing edge splitting, face triangulation, and smoothening via Catmull-Clark subdivision.
                             Utilizing a JSON skeleton, performs distance-based skinning for mesh deformation.' //extrusion
-                            skills={['C++', 'OpenGL', 'Qt']}
+                            skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
                             label='Half-Edge Mesh & Skinning'
                             //path='/'
                         />
@@ -41,11 +41,10 @@ Coded custom Vertex and Post-Processing GLSL shaders to apply coloration effects
                         />
                         <CardItem
                             src='images/24hrAnim4.mp4'
-                            text='Developed essential 3D character animation, model creation, and camera work
-                            with a team of 5 to produce a 3D animation.
-'skills={['Blender', 'Procreate']}
-                            label='24 HOURS Animation Contest'
-                            path='https://youtu.be/AQ-fSgDwUH0?si=4LZSYvHCACmTHB_g'
+                            text='Coded player physics and procedural cave generation.
+'skills={['C++', 'OpenGL', 'Qt']}
+                            label='Mini Minecraft'
+                            //path='/minecraft'
                         />
                     </ul>
                 </div>

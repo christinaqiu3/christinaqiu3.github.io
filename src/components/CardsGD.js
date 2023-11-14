@@ -1,11 +1,35 @@
 import './Cards.css';
 import CardItem from './CardItem';
 
+//NOTE TO SELF: SINCE CHOP AND ISLAND ESCAPADES IS UNFINISHED COMMENTED THEM OUT
+
 function CardsGD() {
     return (
         <div className='cards'>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
+                    <ul className='cards__items'>
+
+                        <CardItem
+                            src='images/gggcropped.mp4'
+                            text='Awarded “Best Production Value - Art & Sound” for rhythm game created in a team of 3.
+
+                            '
+                            skills={['Unity', 'C#', 'Procreate']}
+                            label='Gaslight Gatekeep Girlboss'
+                            path='/ggg'
+                        />
+
+                        <CardItem
+                            src='images/chop3.mp4'
+                            text='Developing an educational Unity C# game to improve Informed Assent for children with Down syndrome in medical studies.
+                            Click to see design doc!'
+                            skills={['Unity', 'C#', 'Procreate']}
+                            label='CHOP'
+                            path='/CHOP'
+                        />
+
+                    </ul>
                     <ul className='cards__items'>
 
                         <CardItem

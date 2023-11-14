@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
+      <change afterPath="$PROJECT_DIR$/public/images/GGGsped.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/eating.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/eatingf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/eatings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flower.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gggborder.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/gggcropped.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons8-moon-and-stars-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons8-sun-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons8-sun.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/yakuta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CardsD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/GGG.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardsA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsA.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardsCG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsCG.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CardsGD.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsGD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardsWD.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsWD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/3DModeling.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/3DModeling.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/CHOP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/CHOP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +78,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/FF5" />
-      <recent name="$PROJECT_DIR$/src/components/pages" />
     </key>
   </component>
   <component name="RunManager" selected="npm.deploy">
@@ -132,7 +149,10 @@
       <workItem from="1697754674891" duration="14347000" />
       <workItem from="1698775944634" duration="2971000" />
       <workItem from="1698938359304" duration="49000" />
-      <workItem from="1699032368644" duration="11347000" />
+      <workItem from="1699032368644" duration="16837000" />
+      <workItem from="1699121002215" duration="5999000" />
+      <workItem from="1699811221719" duration="3173000" />
+      <workItem from="1699985539805" duration="10226000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>

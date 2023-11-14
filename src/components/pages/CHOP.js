@@ -23,12 +23,10 @@ export default function CHOP() {
                 <div className="text-container">
 
                     <h2 className="fade-in-text">
-                        As a member of the Forrest Frenzy minigame team and the UI team I created assets and designed the layout of the game.
+                        I’m currently working with a team to develop a game for the Children’s Hospital of Pennsylvania. The gameplay will demonstrate to kids with down syndrome what they are consenting to when they agree to participate in a sleep study. Since participants are underage, there is concern that they may not comprehend the big block of text on the consent form that they sign off on. Our interactive game is intended to educate the children about the step by step process of a sleep study that they might have to go through.
                         <br></br><br></br>
-                        We decided on an island theme for this minigame collection since each game has a different setting.
-                        <br></br><br></br>
-                        When the player chooses which island to go to the camera pans left or right,
-                        as if they are turning the bow of a ship.
+                        This is an iterative process, working with families of kids with down syndrome and taking into consideration feedback about text font, color choice, and gameplay.
+
                     </h2>
                 </div>
             </div>
