@@ -40,8 +40,11 @@ Coded custom Vertex and Post-Processing GLSL shaders to apply coloration effects
                             //path='/fineart'
                         />
                         <CardItem
-                            src='images/24hrAnim4.mp4'
-                            text='Coded player physics and procedural cave generation.
+                            src='images/playerphy.mp4'
+                            //Coded player physics and procedural cave generation.
+                            text='
+Coded player movement and physics with terrain collisions using grid marching, allowing for sliding along walls for smoother gameplay.
+Enabled block removal and placement with raycasting.
 'skills={['C++', 'OpenGL', 'Qt']}
                             label='Mini Minecraft'
                             //path='/minecraft'

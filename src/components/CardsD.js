@@ -10,19 +10,19 @@ function CardsD() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/3dwips.mp4'
+                            src='images/charawip (1).mp4'
                             text='Working on hair for character model.'
                             skills={['Maya']}
                             label='Character WIP'
-                            path='/modeling'
+                            //path='/character'
                         />
 
                         <CardItem
-                            src='images/3dwips.mp4'
+                            src='images/envwipCropped.mp4'
                             text='Working on a fairy room model.'
                             skills={['Maya']}
                             label='Environment WIP'
-                            path='/modeling'
+                            //path='/environment'
                         />
 
                     </ul>

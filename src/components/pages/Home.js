@@ -42,39 +42,39 @@ function Home() {
                         alt="Christina Qiu"
                         className="profile-image"
                     />
-                    <div className="free-space"><br></br></div>
-                    <Link
-                        className='social-icon-link email'
-                        to='mailto:chuu@seas.upenn.edu'
-                        target='_blank'
-                        aria-label='Email'
-                    >
-                        <i className='fas fa-envelope-open-text' />
-                    </Link>
-                    <Link
-                        className='social-icon-link linkedin'
-                        to='https://www.linkedin.com/in/christina-qiu-6094301b6/'
-                        target='_blank'
-                        aria-label='LinkedIn'
-                    >
-                        <i className='fab fa-linkedin' />
-                    </Link>
-                    <Link
-                        className='social-icon-link github'
-                        to='https://github.com/christinaqiu3'
-                        target='_blank'
-                        aria-label='GitHub'
-                    >
-                        <i className='fab fa-github' />
-                    </Link>
-                    <Link
-                        className='social-icon-link resume'
-                        to='https://docs.google.com/document/d/1T4t-cWnUCJLQr6aDtaHePDn3ETmcyxLqvvNcqZW6Z5Y/edit#heading=h.s7eubbvdu4vb'
-                        target='_blank'
-                        aria-label='Resume'
-                    >
-                        <i className='fas fa-file-invoice' />
-                    </Link>
+                    {/*<div className="free-space"><br></br></div>*/}
+                    {/*<Link*/}
+                    {/*    className='social-icon-link email'*/}
+                    {/*    to='mailto:chuu@seas.upenn.edu'*/}
+                    {/*    target='_blank'*/}
+                    {/*    aria-label='Email'*/}
+                    {/*>*/}
+                    {/*    <i className='fas fa-envelope-open-text' />*/}
+                    {/*</Link>*/}
+                    {/*<Link*/}
+                    {/*    className='social-icon-link linkedin'*/}
+                    {/*    to='https://www.linkedin.com/in/christina-qiu-6094301b6/'*/}
+                    {/*    target='_blank'*/}
+                    {/*    aria-label='LinkedIn'*/}
+                    {/*>*/}
+                    {/*    <i className='fab fa-linkedin' />*/}
+                    {/*</Link>*/}
+                    {/*<Link*/}
+                    {/*    className='social-icon-link github'*/}
+                    {/*    to='https://github.com/christinaqiu3'*/}
+                    {/*    target='_blank'*/}
+                    {/*    aria-label='GitHub'*/}
+                    {/*>*/}
+                    {/*    <i className='fab fa-github' />*/}
+                    {/*</Link>*/}
+                    {/*<Link*/}
+                    {/*    className='social-icon-link resume'*/}
+                    {/*    to='https://docs.google.com/document/d/1T4t-cWnUCJLQr6aDtaHePDn3ETmcyxLqvvNcqZW6Z5Y/edit#heading=h.s7eubbvdu4vb'*/}
+                    {/*    target='_blank'*/}
+                    {/*    aria-label='Resume'*/}
+                    {/*>*/}
+                    {/*    <i className='fas fa-file-invoice' />*/}
+                    {/*</Link>*/}
 
                 </div>
                 <div className="text-container" id="about">
@@ -90,7 +90,7 @@ function Home() {
                         >
                             Digital Media Design
                         </Link>
-                        , an interdisciplinary program that combines computer science and Fine Arts.
+                        , an interdisciplinary program that combines computer science and fine arts.
 
                         <br></br><br></br>
                         💻  Currently I’m the industry relations coordinator and a game developer for&nbsp;

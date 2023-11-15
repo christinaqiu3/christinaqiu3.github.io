@@ -19,6 +19,8 @@ import DDesign from './components/pages/2DDesign';
 import Projects from './components/pages/Projects';
 import Portfolio from './components/pages/Portfolio';
 import GGG from './components/pages/GGG';
+import Character from './components/pages/Character';
+import Environment from './components/pages/Environment';
 
 function App() {
 
@@ -47,6 +49,8 @@ function App() {
                 <Route exact path='/CHOP' element={<CHOP />} />
                 <Route exact path='/2ddesign' element={<DDesign />} />
                 <Route exact path='/ggg' element={<GGG />} />
+                <Route exact path='/character' element={<Character />} />
+                <Route exact path='/environment' element={<Environment />} />
             </Routes>
         </Router>
     </>

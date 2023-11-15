@@ -36,8 +36,8 @@ function GGG() {
             </div>
             <div className="content-abt">
                 <div className="single-col-text-container-home">
-                    <h1 className="page-bottom-heading"><br></br>Gaslight Gatekeep Girlboss</h1>
-                    <h2 className="home-sub-heading">
+                    {/*<h1 className="page-bottom-heading"><br></br>Gaslight Gatekeep Girlboss<br></br><br></br></h1>*/}
+                    <h2 className="home-sub-heading"><br></br>
                         A rhythm game made for the UPGRADE 2023 Halloween Game Jam where I served as an artist, writer, and programmer.
                         Watch an example playthrough below, and be sure to turn on the sound! There are multiple routes you can choose 🤭
                         <br></br><br></br>
