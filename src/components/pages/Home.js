@@ -20,7 +20,7 @@ function Home() {
             if (screenWidth < 930) {
                 setProfileImage('images/flower.JPG');
             } else {
-                setProfileImage('images/flower.jpg');
+                setProfileImage('images/flower.JPG');
             }
         };
 

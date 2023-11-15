@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change afterPath="$PROJECT_DIR$/public/images/playerphy.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/profile-pic 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/squidbee 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/straw 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/surfer 2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/vamp-redo 3 6.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +138,7 @@
       <workItem from="1699032368644" duration="16837000" />
       <workItem from="1699121002215" duration="5999000" />
       <workItem from="1699811221719" duration="3173000" />
-      <workItem from="1699985539805" duration="15723000" />
+      <workItem from="1699985539805" duration="17021000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>
