@@ -12,7 +12,8 @@ function CardsGD() {
 
                         <CardItem
                             src='images/gggcropped.mp4'
-                            text='Awarded “Best Production Value - Art & Sound” for rhythm game created in a team of 3.
+                            text='Served as a programmer, writer, and artist for the 2023 UPGRADE Halloween 24HR Game Jam.
+                            Awarded “Best Production Value - Art & Sound” for rhythm game created in a team of 3.
 
                             '
                             skills={['Unity', 'C#', 'Procreate']}
@@ -56,7 +57,7 @@ function CardsGD() {
 
                         <CardItem
                             src='images/MMM4.mp4'
-                            text='Designed and developed visual novel in 24 hours with 2 team members for the UPGRADE
+                            text='Designed and developed visual novel in 24 hours with 2 team members for the 2022 UPGRADE
                             Halloween Game Jam. Won “Best Production Value – Art & Sound” and “Best Use of Trick Theme” Awards.'
                             skills={['Unity', 'Procreate']}
                             label='Mansplain Manipulate Manslaughter'

@@ -81,7 +81,7 @@ function Home() {
                     <h1 className="fade-in-text">Hi, I'm Christina!</h1>
                     <h2 className="fade-in-text">
                         <br></br>
-                        📚  I am a sophomore at the University of Pennsylvania majoring in&nbsp;
+                        ✦ &nbsp; I am a sophomore at the University of Pennsylvania majoring in&nbsp;
                         <Link
                             className='resume-link'
                             to='http://cg.cis.upenn.edu/dmd.html'
@@ -93,7 +93,7 @@ function Home() {
                         , an interdisciplinary program that combines computer science and fine arts.
 
                         <br></br><br></br>
-                        💻  Currently I’m the industry relations coordinator and a game developer for&nbsp;
+                        ✦&nbsp; Currently I’m the industry relations coordinator and a game developer for&nbsp;
                         <Link
                             className='resume-link'
                             to='https://magazine.seas.upenn.edu/fall-2022/upgrade/'
@@ -113,9 +113,8 @@ function Home() {
                             PennLabs
                         </Link>.
                         <br></br><br></br>
-                        🕹️ I am especially interested in computer graphics, human-computer interaction, virtual reality, game and media development.
-                        <br></br><br></br>
-                        👋  Feel free to look around!
+                        ✦&nbsp; I am especially interested in computer graphics, animation, games, virtual reality, and interactive technologies.
+                        
 
                         <br></br><br></br>
 

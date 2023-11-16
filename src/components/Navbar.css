@@ -137,6 +137,7 @@ button:hover {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     font-size: 24px;
+    margin-left: 1rem;
 }
 
 .LD:hover {
@@ -263,6 +264,11 @@ button:hover {
         border: none;
         transform: translateY(-5%);
         transition: all 0.2s ease-out;
+    }
+
+    .LD {
+        margin-left: 0;
+        margin-top: 2rem;
     }
 
 /*    .nav-links-mobile {
