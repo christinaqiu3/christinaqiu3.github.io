@@ -18,7 +18,7 @@ function CardsGD() {
                             '
                             skills={['Unity', 'C#', 'Procreate']}
                             label='Gaslight Gatekeep Girlboss'
-                            path='/ggg'
+                            path='https://vimeo.com/884532702?share=copy'
                         />
 
                         {/*<CardItem*/}

@@ -11,7 +11,7 @@
     width: 100%;
     max-width: 1000px;
     display: flex;
-    padding-top: 2rem;
+    padding-top: 1rem;
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
@@ -140,14 +140,18 @@
     font-size: 1.2rem;
 }
 
+.updates {
+    color: #000000;
+    margin: 24px;
+    margin-top: -8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
 @media screen and (max-width: 930px) {
     .footer-links {
         flex-direction: row;
-
-    }
-
-    .website-rights {
-        margin-bottom: 0;
+        padding-top: 0rem;
     }
 
     .social-icon-link:hover {
@@ -171,7 +175,4 @@
         flex-grow: 1;
     }
 
-    .footer-links {
-        padding: 0;
-    }
 }

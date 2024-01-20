@@ -11,6 +11,7 @@ export default function Portfolio() {
             <div className="free-space"><br></br><br></br></div>
 
             <section id="3d">
+                <h1 className="page-title-heading"> </h1>
                 <h1 className="page-title-heading">3D Modeling</h1>
                 <CardsD />
             </section>

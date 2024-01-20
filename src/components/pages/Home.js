@@ -12,15 +12,15 @@ function Home() {
 
     useScrollToTop();
 
-    const [profileImage, setProfileImage] = useState('images/flower.JPG');
+    const [profileImage, setProfileImage] = useState('images/profileF.JPG');
 
     useEffect(() => {
         const handleResize = () => {
             const screenWidth = window.innerWidth;
             if (screenWidth < 930) {
-                setProfileImage('images/flower.JPG');
+                setProfileImage('images/profileF.JPG');
             } else {
-                setProfileImage('images/flower.JPG');
+                setProfileImage('images/profileF.JPG');
             }
         };
 
