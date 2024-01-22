@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix" />
+    <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
+      <change afterPath="$PROJECT_DIR$/build/.asset-manifest 2.json.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/.favicon 2.ico.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/.24hrAnim4 2.mp4.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/.Alice (1) 2.mp4.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/.Alice 2.mp4.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/.Alice1 2.mp4.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/.Alice2 2.mp4.icloud" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.295a6ee1.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.295a6ee1.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/GGG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/GGG.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +155,7 @@
       <workItem from="1700169291692" duration="46000" />
       <workItem from="1701451863652" duration="1174000" />
       <workItem from="1702341285868" duration="1568000" />
-      <workItem from="1705588348457" duration="26800000" />
+      <workItem from="1705588348457" duration="27718000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>

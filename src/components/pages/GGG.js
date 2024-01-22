@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react";
 import '../../App.css';
 import Footer from '../Footer';
 import useScrollToTop from '../useScrollToTop';
-import {Link} from "react-router-dom";
 
 function GGG() {
 
