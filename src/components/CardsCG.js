@@ -21,7 +21,7 @@ and wave effects with custom GLSL shaders.'
                             path='https://vimeo.com/901575818?share=copy'
                         />
                         <CardItem
-                            src='images/waterUnity.mp4'
+                            src='images/waterUnityC.mp4'
                             text='Unity water surface shader with adjustable parameters for color gradient based on depth,
                             noise function wave displacement, and overlapping normal textures. Utilized Shader Graph in URP.' //extrusion
                             skills={['Unity', 'Shader Graph', 'URP']}
