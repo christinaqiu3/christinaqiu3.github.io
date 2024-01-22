@@ -21,6 +21,8 @@ import Portfolio from './components/pages/Portfolio';
 import GGG from './components/pages/GGG';
 import Character from './components/pages/Character';
 import Environment from './components/pages/Environment';
+import Maya from './components/pages/Maya';
+
 
 function App() {
 
@@ -51,6 +53,7 @@ function App() {
                 <Route exact path='/ggg' element={<GGG />} />
                 <Route exact path='/character' element={<Character />} />
                 <Route exact path='/environment' element={<Environment />} />
+                <Route exact path='/maya' element={<Maya />} />
             </Routes>
         </Router>
     </>

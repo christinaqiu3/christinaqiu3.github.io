@@ -18,7 +18,7 @@ function CardsWD() {
                             path='https://wenxich.medium.com/familyhub-stay-close-even-miles-apart-ae5b19947382'
                         />
                         <CardItem
-                            src='images/fv5.mp4'
+                            src='images/dinin.mp4'
                             text='Implemented interactive graphs for the Dining Analytics tab.
                             Seamlessly integrated University provided APIs of past user behavior to create
                             predictive models for dining dollar and meal swipe spending.'

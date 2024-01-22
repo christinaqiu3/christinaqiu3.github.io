@@ -14,7 +14,7 @@ function CardsD() {
                             text='Working on hair for character model.'
                             skills={['Maya']}
                             label='Character WIP'
-                            path='/character'
+                            //path='/character'
                         />
 
                         <CardItem
@@ -22,7 +22,7 @@ function CardsD() {
                             text='Working on a fairy room model.'
                             skills={['Maya', 'Blender']}
                             label='Environment WIP'
-                            path='/environment'
+                            //path='/environment'
                         />
 
                     </ul>

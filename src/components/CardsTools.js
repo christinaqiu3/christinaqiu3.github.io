@@ -9,15 +9,12 @@ function CardsTools() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/mineCROP.mp4'
-                            text='
-Coded player movement, physics, terrain collisions, block removal/placement using grid marching
-and ray casting. Created a procedural sky with sun and moon cycles linked to shadow mapping.
-Generated procedural caves using 3D Perlin noise and added distance fog. Implemented water and lava overlay
-and wave effects with custom GLSL shaders.'
+                            src='images/flowerPlug (1).mp4'
+                            text='Flower generator plugin for Maya. Users can customize a flower design and generate multiple flowers on selected vertices.
+                        There is a randomize functionality to add a more natural looking variation between flowers.'
                             skills={['Python','Maya']}
-                            label='Maya Plugins'
-                            path='https://vimeo.com/901575818?share=copy'
+                            label='Flower Generator Maya Plugin'
+                            path='https://drive.google.com/file/d/1tPDEfHZSkRQRqUVY8JSyBJdrJ3f7kfjP/view?usp=sharing'
                         />
                         <CardItem
                             src='images/cube3.mp4'
@@ -30,7 +27,7 @@ and wave effects with custom GLSL shaders.'
                         />
 
                     </ul>
-
+                    
                 </div>
             </div>
         </div>
