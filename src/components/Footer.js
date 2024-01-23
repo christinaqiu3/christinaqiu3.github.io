@@ -43,7 +43,7 @@ function Footer() {
                 <div class='social-media-wrap'>
                     <small class='website-rights'>Made with ♥︎ by Christina Qiu</small>
                 </div>
-            <small className='updates'>Last updated 01/19/2023</small>
+            <small className='updates'>Last updated January 2024</small>
         </div>
     );
 }
