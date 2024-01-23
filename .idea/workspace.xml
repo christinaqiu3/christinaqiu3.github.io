@@ -2,8 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change afterPath="$PROJECT_DIR$/public/images/duck cropped.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/FF.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/FF2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/FF3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/FF4.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/duck cropped.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/ducks (1).mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/images/lll.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon 2.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/24hrAnim4 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/24hrAnim4 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/Alice2 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/CHOP 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/IMG_6507 2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/IMG_6507.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/MMM4 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/MMM5 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/ProfilePFull 2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/ProfilePFull.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/ProfilePHalf 2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/ProfilePHalf.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all1pg 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all1pg 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all2pg 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all3 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all3 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all32 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all32 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all3d 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all3d 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/all4 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/allpg 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/allpgg 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/allpggg 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-1 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-1 4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-10 3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-10 4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-11 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-12 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-12 4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-2 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-2 4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-3 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-3 4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-4 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-4 4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-5 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-6 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-6 4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-7 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-7 4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-8 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-8 4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/art-9 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/charawip (1) 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/charawip (1) 4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/chibi 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/chop2 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/chop3 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/chrollo 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/cig 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/cig 4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/cube3 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/cube3 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/dig-art-5 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/dig-art-5 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/dinin 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/dinin 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/envwip 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/envwip 4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/envwipCropped 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/envwipCropped 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/fh 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/fh 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/fine-art-3 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/fine-art-3 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/flashlight-cursor 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/flashlight-cursor 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/flower 2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/flower 3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/flower.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/flowerPlug (1) 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/flowerPlug (1) 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/fv5 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/fv5 4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/gggcropped 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/gggcropped 4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/grandparents 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/grandparents 4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/icons8-moon-and-stars-48 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/icons8-moon-and-stars-48 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/icons8-sun 2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/icons8-sun 3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/icons8-sun-48 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/icons8-sun-48 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/marioRR 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/marioRR 4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/marketing 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/marketing 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mineCROP 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mineCROP 4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/minimaya copy 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/minimaya copy 4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mon-vid 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/mon-vid 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/pennapps-vid 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/pennapps-vid 4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/phineas2 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/phineas2 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/profile-pic 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/profile-pic 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/profile-pic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/profileF 2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/profileF 3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/red 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/red 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/squidbee 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/squidbee 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/straw 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/straw 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/sun 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/sun 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/surfer 2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/surfer 3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/vamp3tryFINAL 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/vamp3tryFINAL 3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/waterUnityC 2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo192 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo192 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo512 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo512 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manifest 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manifest 3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots 2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots 3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.815b6c8a 2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.815b6c8a.css 2.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a20ba572.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a20ba572.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a20ba572.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +288,7 @@
       <workItem from="1702341285868" duration="1568000" />
       <workItem from="1705588348457" duration="27718000" />
       <workItem from="1705947462472" duration="600000" />
-      <workItem from="1706027874149" duration="5602000" />
+      <workItem from="1706027874149" duration="6025000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>
