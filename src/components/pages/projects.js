@@ -31,12 +31,12 @@ export default function Projects() {
                 <CardsTools />
             </section>
 
-            <section id="game">
+            {/*<section id="game">*/}
 
 
-                <h1 className="page-title-heading">Game Development</h1>
-                <CardsGD />
-            </section>
+            {/*    <h1 className="page-title-heading">Game Development</h1>*/}
+            {/*    <CardsGD />*/}
+            {/*</section>*/}
 
             <section id="web">
                 <h1 className="page-title-heading">Web Development</h1>

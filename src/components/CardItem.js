@@ -6,7 +6,6 @@ function CardItem(props) {
 
     const skills = props.skills || []; // Ensure skills is an array or default to an empty array
 
-
     return (
         <li className='cards__item'>
             <Link
@@ -31,7 +30,14 @@ function CardItem(props) {
                             Your browser does not support the video tag.
                         </video>
                     ) : (
-                        <img className='cards__item__img' alt='' src={props.src} />
+                        <iframe
+                            className='cards__item__img'
+                            title='YouTube Video'
+                            src={`https://www.youtube.com/embed/${props.youtubeId}autoplay=1`}
+                            frameBorder='0'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop'
+                            allowFullScreen
+                        ></iframe>
                     )}
                 </figure>
                 <div className='cards__item__info'>

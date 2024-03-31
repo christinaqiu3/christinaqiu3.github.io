@@ -16,8 +16,8 @@ import Modeling from './components/pages/3DModeling';
 import FineArt from './components/pages/FineArt';
 import CHOP from './components/pages/CHOP';
 import DDesign from './components/pages/2DDesign';
-import Projects from './components/pages/Projects';
-import Portfolio from './components/pages/Portfolio';
+import Projects from './components/pages/projects';
+import Portfolio from './components/pages/portfolio';
 import GGG from './components/pages/GGG';
 import Character from './components/pages/Character';
 import Environment from './components/pages/Environment';
@@ -29,7 +29,7 @@ function App() {
   return (
     <>
         <Router>
-            <Navbar/>
+            {/*<Navbar/>*/}
             <Routes>
                 <Route exact path="/" element={<Home />}/>
                 <Route exact path="/projects" element={<Projects />}/>

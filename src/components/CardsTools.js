@@ -17,7 +17,7 @@ function CardsTools() {
                             path='https://vimeo.com/905690072?share=copy'
                         />
                         <CardItem
-                            src='images/duck cropped.mp4'
+                            src='images/duck tub copy.mp4'
                             text='Randomized Physics Scattering Scriptable Tool made in Unreal Engine 5.
                             Users can import their own models and generate randomly scattered objects to quickly create a natural looking scene.
                             Ducks and bathtub modeled in Blender.'
@@ -39,11 +39,12 @@ function CardsTools() {
                             path='https://vimeo.com/904651208?share=copy'
                         />
                         <CardItem
-                            src='images/lll.jpg'
-                            text='Work in Progress'
-                            skills={['Python','Blender']}
-                            label='Blender Addon'
-                            //path='https://vimeo.com/901575818?share=copy'
+                            src='images/24hrAnim4.mp4'
+                            text='Developed essential 3D character animation, model creation, and camera work
+                            with a team of 5 to produce a 3D animation.
+'skills={['Blender', 'Procreate']}
+                            label='24 HOURS Animation Contest'
+                            path='https://youtu.be/AQ-fSgDwUH0?si=4LZSYvHCACmTHB_g'
                         />
 
                     </ul>

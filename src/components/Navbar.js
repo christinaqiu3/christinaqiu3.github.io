@@ -43,7 +43,7 @@ function Navbar() {
         } else {
             root.style.setProperty('--background', '#000000'); //#32324b//222628
             root.style.setProperty('--text', '#959CF8');//D3D3F0
-            root.style.setProperty('--card', '#32324b');
+            root.style.setProperty('--card', '#1f2134');
             root.style.setProperty('--heading', '#959CF8');
             //root.style.setProperty('--nav-background', '#656FC8');
         }

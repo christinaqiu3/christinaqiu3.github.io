@@ -29,7 +29,7 @@ function CardsD() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/24hrAnim4.mp4'
+                            youtubeId='https://youtu.be/AQ-fSgDwUH0?si=4LZSYvHCACmTHB_g'
                             text='Developed essential 3D character animation, model creation, and camera work
                             with a team of 5 to produce a 3D animation.
 'skills={['Blender', 'Procreate']}

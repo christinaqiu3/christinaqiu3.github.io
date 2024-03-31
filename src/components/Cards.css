@@ -6,7 +6,8 @@
 
 .cards {
     background: var(--background);
-    padding: 0 6rem 4rem;
+    padding: 0;
+    flex-flow: row;
 }
 
 h1 {
@@ -126,13 +127,19 @@ h1 {
 
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1300px) {
     .cards__items {
         display: flex;
     }
+
     .cards {
-        padding: 0 4rem 4rem;
+        padding: 0;
     }
+
+    .cards__item {
+        margin: 1rem 1rem;
+    }
+
 }
 
 @media only screen and (max-width: 930px) {
