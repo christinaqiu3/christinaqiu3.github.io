@@ -196,7 +196,7 @@ iframe {
     justify-content: center;
     align-items: flex-start; /* Align items to the top */
     background-color: var(--background);
-    padding: 2rem 75px 50px;
+    padding: 0rem 75px 50px;
     padding-right: 0rem;
 }
 

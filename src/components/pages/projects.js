@@ -27,7 +27,7 @@ export default function Projects() {
             </section>
 
             <section id="tools">
-                <h1 className="page-title-heading">CG Tools</h1>
+                <h1 className="page-title-heading"><br></br><br></br>CG Tools</h1>
                 <CardsTools />
             </section>
 
@@ -39,11 +39,11 @@ export default function Projects() {
             {/*</section>*/}
 
             <section id="web">
-                <h1 className="page-title-heading">Web Development</h1>
+                <h1 className="page-title-heading"><br></br><br></br>Web Development</h1>
                 <CardsWD />
             </section>
 
-
+            <div className="free-space"><br></br><br></br><br></br></div>
             <Footer />
 
         </>

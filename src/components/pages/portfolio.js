@@ -17,10 +17,10 @@ export default function Portfolio() {
             </section>
 
             <section id="art">
-                <h1 className="page-title-heading">Artwork</h1>
+                <h1 className="page-title-heading"><br></br><br></br>Artwork</h1>
                 <CardsA />
             </section>
-
+            <div className="free-space"><br></br><br></br><br></br></div>
             <Footer />
 
         </>

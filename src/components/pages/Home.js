@@ -5,7 +5,7 @@ import useScrollToTop from '../useScrollToTop';
 import {Link} from "react-router-dom";
 import CardsGD from "../CardsGD";
 import CardsWD from "../CardsWD";
-import CardsA from "../CardsA";
+import CardsH from "../CardsH";
 import CardsCG from "../CardsCG";
 import CardsTools from "../CardsTools";
 
@@ -161,21 +161,7 @@ function Home() {
                             <h1 className="page-title-heading"> <br></br></h1>
                             <h1 className="page-title-heading"></h1>
                             <h1 className="fade-in-subtext">     Projects</h1>
-                            <CardsCG />
-                        </section>
-
-                        <section id="tools">
-                            <h1 className="page-title-heading"> <br></br></h1>
-                            <h1 className="page-title-heading"></h1>
-                            <h1 className="fade-in-subtext">     CG Tools</h1>
-                            <CardsTools />
-                        </section>
-
-                        <section id="web">
-                            <h1 className="page-title-heading"> <br></br></h1>
-                            <h1 className="page-title-heading"></h1>
-                            <h1 className="fade-in-subtext">     Web Development</h1>
-                            <CardsWD />
+                            <CardsH />
                         </section>
 
                         <div className="free-space"><br></br></div>
@@ -189,7 +175,7 @@ function Home() {
                 </div>
 
 
-            {/*<Footer />*/}
+            <Footer />
         </>
     );
 }

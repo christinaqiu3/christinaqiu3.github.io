@@ -39,12 +39,11 @@ function CardsTools() {
                             path='https://vimeo.com/904651208?share=copy'
                         />
                         <CardItem
-                            src='images/24hrAnim4.mp4'
-                            text='Developed essential 3D character animation, model creation, and camera work
-                            with a team of 5 to produce a 3D animation.
-'skills={['Blender', 'Procreate']}
-                            label='24 HOURS Animation Contest'
-                            path='https://youtu.be/AQ-fSgDwUH0?si=4LZSYvHCACmTHB_g'
+                            src='images/treeGen.mp4'
+                            text='Awarded “Best Technical Production” for Unity3D platformer game where I created procedurally generated and modeled assets.
+'skills={['Houdini', 'Unity3D']}
+                            label='Procedurally Generated Stylized Trees'
+                            path='https://aczw.itch.io/dgdg'
                         />
 
                     </ul>
