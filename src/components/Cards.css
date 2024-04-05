@@ -1,7 +1,8 @@
 :root {
     --background: #ffffff;
     --text: #000000;
-    --card: #e6e7ff;
+    --card: #EBEFFB;
+    --accent: #AEBFF1;
 }
 
 .cards {
@@ -42,7 +43,7 @@ h1 {
     flex-flow: column;
     width: 100%;
     background-color: var(--card);
-    box-shadow: 0 0 20px rgb(149, 156, 248);
+    box-shadow: 0 0 20px var(--accent);
     //-webkit-filter: drop-shadow(0 6px 20px rgb(149, 156, 248));
     //filter: drop-shadow(0 6px 20px rgb(149, 156, 248));
     overflow: hidden;
@@ -91,6 +92,45 @@ h1 {
     transition: all 0.2s linear;
 }
 
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.overlay-text {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+    color: white;
+    margin-top: 2rem;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.cards__item:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.video-container:hover > .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.cards__item:hover .overlay-text {
+    opacity: 1; /* Show text on hover */
+}
+
 .cards__item__img:hover {
     transform: scale(1.1);
 }
@@ -114,10 +154,18 @@ h1 {
 }
 
 .cards__item__text {
-    color: var(--text);
+    color: white;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 20px;
     font-family: 'Mukta', sans-serif;
+    opacity: 0;
+
+    margin-top: -2rem;
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.cards__item:hover .cards__item__text {
+    opacity: 0; /* Show text on hover */
 }
 
 @media only screen and (min-width: 1200px) {

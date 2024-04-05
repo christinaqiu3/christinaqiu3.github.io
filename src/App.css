@@ -1,7 +1,9 @@
 :root {
     --background: #ffffff;
     --text: #000000;
-    --heading: #32324b;
+    --heading: #182039;
+    --accent: #AEBFF1;
+    --accent3: #AEBFF1;
 }
 
 * {
@@ -128,7 +130,7 @@ iframe {
     top: 50%;
     left: 0;
     border-radius: 25px;
-    box-shadow: 0 0 20px rgb(149, 156, 248);
+    box-shadow: 0 0 20px var(--accent);
     transform: translate(-50%, -50%);
     object-fit: cover;
     max-height: 500px;
@@ -184,7 +186,7 @@ iframe {
     //display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #959CF8;
+    background-color: var(--accent);
     padding: 75px;
 }
 
@@ -255,8 +257,9 @@ iframe {
 /*resume*/
 
 .resume-link {
-    color: #959CF8;
+    color: var(--text);
     font-size: 20px;
+    font-weight: bold;
     text-align: left;
     padding-top: 20px;
     opacity: 0;
@@ -265,7 +268,7 @@ iframe {
 }
 
 .resume-link:hover {
-    color: #6368F4;
+    color: var(--accent2);
 }
 
 .social-logo {
@@ -284,7 +287,7 @@ iframe {
     position: relative;
     width: 100%;
     height: 500px;
-    background-color: black;
+    background-color: var(--accent2);
     color: var(--text);
     text-align: center;
     overflow: hidden;

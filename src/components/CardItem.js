@@ -18,6 +18,7 @@ function CardItem(props) {
                 <figure className='cards__item__pic-wrap' data-category={props.label}>
                     {/* Use the appropriate element based on the content (video or image) */}
                     {props.src.endsWith('.mp4') ? (
+                            <div className='video-container'>
                         <video
                             className='cards__item__img'
                             alt='Travel Video'
@@ -29,6 +30,10 @@ function CardItem(props) {
                             <source src={props.src} type='video/mp4' />
                             Your browser does not support the video tag.
                         </video>
+                                <div className='overlay'>
+                                    <div className='overlay-text'>{props.text}</div>
+                                </div>
+                            </div>
                     ) : (
                         <iframe
                             className='cards__item__img'
@@ -41,7 +46,7 @@ function CardItem(props) {
                     )}
                 </figure>
                 <div className='cards__item__info'>
-                    <h5 className='cards__item__text'>{props.text}</h5>
+                    <h5 className='cards__item__text'>Unity water surface shader with adjustable parameters for</h5>
                     <div className='rounded-rectangle-container'>
                         {skills.map((skill, index) => (
                             <div key={index} className='custom-rounded-rectangle'>

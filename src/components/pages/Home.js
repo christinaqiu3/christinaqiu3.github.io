@@ -62,7 +62,7 @@ function Home() {
                             , an interdisciplinary program that combines computer science and fine arts.
 
                             <br></br><br></br>
-                            ✦&nbsp; Currently I’m the industry relations coordinator and a game developer for&nbsp;
+                            ✦&nbsp; Currently I’m the Industry Relations Coordinator and a Game Developer for&nbsp;
                             <Link
                                 className='resume-link'
                                 to='https://magazine.seas.upenn.edu/fall-2022/upgrade/'
@@ -71,8 +71,7 @@ function Home() {
                             >
                                 UPGRADE
                             </Link>
-                            ,
-                            and a Mobile iOS developer for&nbsp;
+                            , a Mobile iOS developer for&nbsp;
                             <Link
                                 className='resume-link'
                                 to='https://pennlabs.org/'
@@ -80,7 +79,7 @@ function Home() {
                                 aria-label='PennLabs'
                             >
                                 PennLabs
-                            </Link>, and a designer for Penn's&nbsp;
+                            </Link>, and a Graphic Designer for Penn's&nbsp;
                             <Link
                                 className='resume-link'
                                 to='http://cg.cis.upenn.edu/siggraph/'

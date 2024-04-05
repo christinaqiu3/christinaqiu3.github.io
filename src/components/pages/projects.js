@@ -18,7 +18,7 @@ export default function Projects() {
             {/*    <h1 className="home-heading"><br></br><br></br>Computer Graphics</h1>*/}
             {/*    <CardsCG />*/}
             {/*</section>*/}
-            <div className="free-space"><br></br><br></br></div>
+            <div className="free-space"><br></br><br></br><br></br></div>
 
             <section id="cg">
                 <h1 className="page-title-heading"> </h1>

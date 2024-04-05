@@ -37,14 +37,14 @@ function Navbar() {
         if (isDarkMode) {
             root.style.setProperty('--background', '#ffffff');
             root.style.setProperty('--text', '#000000');
-            root.style.setProperty('--card', '#e6e7ff');
+            root.style.setProperty('--card', '#EBEFFB');
             root.style.setProperty('--heading', '#000000');
             //root.style.setProperty('--nav-background', '#959CF8');
         } else {
             root.style.setProperty('--background', '#000000'); //#32324b//222628
-            root.style.setProperty('--text', '#959CF8');//D3D3F0
-            root.style.setProperty('--card', '#1f2134');
-            root.style.setProperty('--heading', '#959CF8');
+            root.style.setProperty('--text', '#AEBFF1');//D3D3F0
+            root.style.setProperty('--card', '#182039');
+            root.style.setProperty('--heading', '#AEBFF1');
             //root.style.setProperty('--nav-background', '#656FC8');
         }
         setIsDarkMode(!isDarkMode);
@@ -80,9 +80,9 @@ function Navbar() {
                         </li>
 
 
-                        <button onClick={toggleDarkMode} className="LD">
-                            <img src={isDarkMode ? "images/icons8-moon-and-stars-48.png" : "images/icons8-sun-48.png"} alt="Sun/Moon" width="28" height="28" className="LD-image"/>
-                        </button>
+                        {/*<button onClick={toggleDarkMode} className="LD">*/}
+                        {/*    <img src={isDarkMode ? "images/icons8-moon-and-stars-48.png" : "images/icons8-sun-48.png"} alt="Sun/Moon" width="28" height="28" className="LD-image"/>*/}
+                        {/*</button>*/}
 
                         <br></br><br></br>
                     </ul>
