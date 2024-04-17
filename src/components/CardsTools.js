@@ -31,11 +31,11 @@ function CardsTools() {
 
                         <CardItem
                             src='images/cube3.mp4'
-                            text='A mini Maya application that parses OBJ files into Half-Edge meshes,
+                            text='A Mini Maya application that parses OBJ files into Half-Edge meshes,
                             allowing edge splitting, face triangulation, and smoothening via Catmull-Clark subdivision.
                             Utilizing a JSON skeleton, performs distance-based skinning for mesh deformation.' //extrusion
                             skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
-                            label='Half-Edge Mesh & Skinning'
+                            label='Mini Maya'
                             path='https://vimeo.com/904651208?share=copy'
                         />
                         <CardItem

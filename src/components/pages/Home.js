@@ -3,11 +3,7 @@ import '../../App.css';
 import Footer from '../Footer';
 import useScrollToTop from '../useScrollToTop';
 import {Link} from "react-router-dom";
-import CardsGD from "../CardsGD";
-import CardsWD from "../CardsWD";
 import CardsH from "../CardsH";
-import CardsCG from "../CardsCG";
-import CardsTools from "../CardsTools";
 
 
 function Home() {
@@ -45,8 +41,8 @@ function Home() {
         <>
             <div className="vertical-container">
                 <div className="content-abt">
-
                     <div className="text-container" id="about">
+                        <div className="content-abt-padding">
                         <h1 className="fade-in-text">Hi, I'm Christina!</h1>
                         <h2 className="fade-in-text">
                             <br></br>
@@ -137,6 +133,7 @@ function Home() {
                             frameBorder="0"
                             allow="autoplay; loop; fullscreen"
                             allowFullScreen
+                            style={{paddingTop: '-2rem !important' }}
                         ></iframe>
 
                         {/*<div className="image-container">*/}
@@ -151,7 +148,7 @@ function Home() {
                             <br/>
                             Last updated March 2024
                         </h2>
-
+                        </div>
                     </div>
 
                     <div className="vertical-container">

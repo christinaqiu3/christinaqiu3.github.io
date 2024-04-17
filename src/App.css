@@ -6,6 +6,10 @@
     --accent3: #AEBFF1;
 }
 
+body {
+    background-color: var(--accent);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,6 +32,7 @@ video {
     max-width: 1000px;
     width: 100%;
     align-self: center;
+
 }
 
 .center-div {
@@ -202,6 +207,10 @@ iframe {
     padding-right: 0rem;
 }
 
+.content-abt-padding {
+    padding:0;
+}
+
 .free-space {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap on smaller screens */
@@ -265,6 +274,7 @@ iframe {
     opacity: 0;
     font-family: 'Mukta', sans-serif;
     animation: fadeEaseRight 2s forwards;
+    transition: 0.3s ease;
 }
 
 .resume-link:hover {
@@ -309,6 +319,12 @@ iframe {
 }
 
 @media screen and (max-width: 930px) {
+    iframe {
+        width: 100%;
+        margin-top: -2.25rem;
+        margin-bottom: -2.25rem;
+    }
+
     .content-abt {
         flex-direction: column; /* Stack items on top of each other */
         align-items: center;
@@ -338,8 +354,13 @@ iframe {
         padding-bottom: 1rem;
     }
 
-    .content-abt {
-        padding: 4rem 4rem 0;
+    .content-abt{
+        padding: 0;
+    }
+
+    .content-abt-padding {
+        margin: 4rem 4rem 0;
+
     }
 
     .home-heading {
@@ -353,10 +374,6 @@ iframe {
 
     .home-sub-heading {
         padding-top: 3rem;
-    }
-
-    video {
-
     }
 
     .modeling-images {
@@ -420,8 +437,8 @@ iframe {
 .custom-rounded-rectangle {
     display: inline-block;
     padding: 8px 16px; /* Adjust padding according to your preference */
-    border-radius: 20px; /* Adjust border-radius to control the roundness of the rectangle */
-    border: 2px solid var(--nav-background); /* Border color */
+    border-radius: 10px; /* Adjust border-radius to control the roundness of the rectangle */
+    /*border: 2px solid var(--nav-background);  Border color */
     margin: 10px 5px 0px;
     background-color: black;
     //box-shadow: 0 0 20px rgb(149, 156, 248);

@@ -20,6 +20,10 @@ and wave effects with custom GLSL shaders.'
                             skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
                             label='Mini Minecraft'
                             path='https://vimeo.com/901575818?share=copy'
+                            fillertext='y'
+                            iconRead='/alice'
+                            iconLink='/ggg'
+                            //iconCode='\chop'
                         />
 
                         <CardItem
@@ -28,8 +32,9 @@ and wave effects with custom GLSL shaders.'
                             Users can import their own models and generate randomly scattered objects to quickly create a natural looking scene.
                             Ducks and bathtub modeled in Blender.'
                             skills={['Unreal Engine', 'Blender']}
-                            label='Physics Scattering UE5 Scriptable Tool'
+                            label='Physics Scattering UE5 Tool'
                             path='https://vimeo.com/905688463?share=copy'
+                            fillertext='y'
                         />
                         {/*<CardItem*/}
                         {/*    src='images/chop3.mp4'*/}
@@ -49,12 +54,13 @@ and wave effects with custom GLSL shaders.'
                     <ul className='cards__items'>
                         <CardItem
                             src='images/cube3.mp4'
-                            text='A mini Maya application that parses OBJ files into Half-Edge meshes,
+                            text='A Mini Maya application that parses OBJ files into Half-Edge meshes,
                             allowing edge splitting, face triangulation, and smoothening via Catmull-Clark subdivision.
                             Utilizing a JSON skeleton, performs distance-based skinning for mesh deformation.' //extrusion
                             skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
-                            label='Half-Edge Mesh & Skinning'
+                            label='Mini Maya'
                             path='https://vimeo.com/904651208?share=copy'
+                            fillertext='y'
                         />
                         <CardItem
                             src='images/flowerPlug (1).mp4'
@@ -63,6 +69,7 @@ and wave effects with custom GLSL shaders.'
                             skills={['Python','Maya']}
                             label='Flower Generator Maya Plugin'
                             path='https://vimeo.com/905690072?share=copy'
+                            fillertext='y'
                         />
                     </ul>
 
