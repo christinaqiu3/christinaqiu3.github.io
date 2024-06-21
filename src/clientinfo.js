@@ -1,4 +1,4 @@
-import { client } from './my-portfolio/client';
+import { client } from '../client';
 
 async function getData() {
     const query = `*[_type == "project] {

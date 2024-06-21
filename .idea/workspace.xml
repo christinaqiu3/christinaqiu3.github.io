@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change afterPath="$PROJECT_DIR$/clientinfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-portfolio/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/clientinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sanity/runtime/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sanity/runtime/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-portfolio/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/schemaTypes/eventType.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-portfolio/schemaTypes/eventType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/sanity.cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sanity.cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/sanity.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sanity.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/schemaTypes/eventType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemaTypes/eventType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/schemaTypes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemaTypes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/static/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/GGG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/GGG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +80,14 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/my-portfolio" />
       <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start-sanity">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="personal-website" />
       <method v="2">
@@ -99,11 +111,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="deploy" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -129,11 +141,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start-sanity" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="start-sanity" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -141,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start-sanity" />
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start (1)" />
-        <item itemvalue="npm.deploy" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +199,7 @@
       <workItem from="1711748599725" duration="24019000" />
       <workItem from="1712274533312" duration="10829000" />
       <workItem from="1718919426317" duration="5862000" />
-      <workItem from="1718945877270" duration="5505000" />
+      <workItem from="1718945877270" duration="7164000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>

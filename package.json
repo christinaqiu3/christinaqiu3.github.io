@@ -17,7 +17,14 @@
     "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.47.1",
+    "eslint-config-react-app": "^7.0.1",
+
+    "sanity": "^3.47.1",
+    "styled-components": "^6.1.8"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -25,8 +32,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+
+    "dev": "sanity dev",
+    "start-sanity": "sanity start",
+    "build-sanity": "sanity build",
+    "deploy-sanity": "sanity deploy",
+    "deploy-graphql": "sanity graphql deploy"
   },
+  "keywords": [
+    "sanity"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -58,6 +74,20 @@
     "@babel/traverse": ">=7.23.2",
     "fork-ts-checker-webpack-plugin": "^9.0.0",
     "gh-pages": "^6.0.0",
-    "nth-check": ">=2.0.1"
+    "nth-check": ">=2.0.1",
+
+    "@sanity/eslint-config-studio": "^4.0.0",
+    "@types/react": "^18.0.25",
+    "eslint": "^9.5.0",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-react": "^7.34.3",
+    "prettier": "^3.0.2",
+    "typescript": "^5.1.6"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
   }
 }
