@@ -4,7 +4,9 @@
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clientinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/GGG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/GGG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sanity.cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sanity.cli.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +179,7 @@
       <workItem from="1711748599725" duration="24019000" />
       <workItem from="1712274533312" duration="10829000" />
       <workItem from="1718919426317" duration="5862000" />
-      <workItem from="1718945877270" duration="11172000" />
+      <workItem from="1718945877270" duration="15015000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>

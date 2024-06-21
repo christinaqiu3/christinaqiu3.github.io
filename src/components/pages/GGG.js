@@ -43,6 +43,8 @@ function GGG() {
         fetchData();
     }, []);
 
+
+
     return (
         <>
             <div className="content">
@@ -78,7 +80,7 @@ function GGG() {
                             {projects.map((project, index) => (
                                 <CardItem
                                     key={index}
-                                    src='images/mineCROP.mp4'
+                                    src={project.videoUrl}
                                     text={project.description}
                                     skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
                                     label={project.name}

@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {Link} from "react-router-dom";
+
 
 function CardItem(props) {
     const isExternalLinkPath = /^https?:\/\//.test(props.path); // Check if it's an external link
@@ -8,6 +9,7 @@ function CardItem(props) {
     const isExternalLinkCode = /^https?:\/\//.test(props.iconCode);
 
     const skills = props.skills || []; // Ensure skills is an array or default to an empty array
+
 
     return (
         <li className='cards__item'>
