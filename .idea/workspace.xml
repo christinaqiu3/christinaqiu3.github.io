@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Duck.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardsH.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsH.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/Alice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Alice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +154,7 @@
       <workItem from="1706027874149" duration="6025000" />
       <workItem from="1711748599725" duration="24019000" />
       <workItem from="1712274533312" duration="10829000" />
-      <workItem from="1718919426317" duration="4277000" />
+      <workItem from="1718919426317" duration="5862000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>

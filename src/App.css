@@ -207,6 +207,17 @@ iframe {
     padding-right: 0rem;
 }
 
+.content-desc {
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;  Allow items to wrap on smaller screens */
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    background-color: var(--background);
+    padding: 0px 250px 50px;
+    text-align: left;
+}
+
 .content-abt-padding {
     padding:0;
 }
