@@ -8,7 +8,7 @@ export const eventType =[ {
         },
         {
             name: 'description',
-            type: 'string',
+            type: 'text',
         },
         {
             name: 'video',

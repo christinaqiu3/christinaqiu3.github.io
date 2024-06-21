@@ -1,7 +1,12 @@
 import React, {useState, useEffect} from "react";
 import '../../App.css';
 import Footer from '../Footer';
+import CardItem from '../CardItem';
 import useScrollToTop from '../useScrollToTop';
+//import {clientinfo} from '../clientinfo';
+//const { projects } = await clientinfo();
+
+const p = null
 
 function GGG() {
 
@@ -42,22 +47,44 @@ function GGG() {
                         <br></br><br></br>
                     </h2>
                     <div className="center-div">
-                    <iframe
-                        title="Gaslight Gatekeep Girlboss"
-                        src="https://player.vimeo.com/video/884532702?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
-                        width="640"
-                        height="564"
-                        frameBorder="0"
-                        allow="autoplay; loop; fullscreen"
-                        allowFullScreen
-                    ></iframe>
+                        <iframe
+                            title="Gaslight Gatekeep Girlboss"
+                            src="https://player.vimeo.com/video/884532702?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
+                            width="640"
+                            height="564"
+                            frameBorder="0"
+                            allow="autoplay; loop; fullscreen"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div className='cards'>
+                <div className='cards__container'>
+                    <div className='cards__wrapper'>
+                        <ul className='cards__items'>
+                            <CardItem
+                                src='images/mineCROP.mp4'
+                                //Coded player physics and procedural cave generation.
+                                text={p}
+                                skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
+                                label={p}
+                                path='https://vimeo.com/901575818?share=copy'
+                                fillertext='y'
+                                iconRead='/minecraft'
+                                iconLink='https://vimeo.com/901575818?share=copy'
+                                //iconCode='\chop'
+                            />
+                        </ul>
                     </div>
                 </div>
             </div>
 
             <div className="free-space"><br></br></div>
 
-            <Footer />
+
+            <Footer/>
         </>
     );
 }

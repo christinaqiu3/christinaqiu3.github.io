@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
+      <change afterPath="$PROJECT_DIR$/clientinfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/clientinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Alice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Alice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-portfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-portfolio/schemaTypes/eventType.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-portfolio/schemaTypes/eventType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/GGG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/GGG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +68,14 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/my-portfolio" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/FF5" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.dev">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="personal-website" />
       <method v="2">
@@ -79,6 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-portfolio/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -89,11 +109,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-portfolio/package.json" />
       <command value="run" />
       <scripts>
-        <script value="predeploy" />
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-portfolio/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -111,9 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
-        <item itemvalue="npm.predeploy" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +187,7 @@
       <workItem from="1711748599725" duration="24019000" />
       <workItem from="1712274533312" duration="10829000" />
       <workItem from="1718919426317" duration="5862000" />
+      <workItem from="1718945877270" duration="5505000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>
