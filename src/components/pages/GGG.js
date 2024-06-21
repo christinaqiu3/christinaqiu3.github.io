@@ -3,10 +3,10 @@ import '../../App.css';
 import Footer from '../Footer';
 import CardItem from '../CardItem';
 import useScrollToTop from '../useScrollToTop';
-//import {clientinfo} from '../clientinfo';
-//const { projects } = await clientinfo();
+import {clientinfo} from '../../clientinfo.js';
 
-const p = null
+const p = await clientinfo();
+
 
 function GGG() {
 
@@ -67,9 +67,9 @@ function GGG() {
                             <CardItem
                                 src='images/mineCROP.mp4'
                                 //Coded player physics and procedural cave generation.
-                                text={p}
+                                text={p.name}
                                 skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
-                                label={p}
+                                label={p.description}
                                 path='https://vimeo.com/901575818?share=copy'
                                 fillertext='y'
                                 iconRead='/minecraft'

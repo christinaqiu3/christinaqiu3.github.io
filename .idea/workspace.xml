@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change afterPath="$PROJECT_DIR$/.sanity/runtime/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sanity/runtime/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/sanity.cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sanity.cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/sanity.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sanity.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/schemaTypes/eventType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemaTypes/eventType.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/schemaTypes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemaTypes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-portfolio/static/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/src/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientinfo" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/GGG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/GGG.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +61,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/my-portfolio" />
-      <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start-sanity">
@@ -199,7 +179,7 @@
       <workItem from="1711748599725" duration="24019000" />
       <workItem from="1712274533312" duration="10829000" />
       <workItem from="1718919426317" duration="5862000" />
-      <workItem from="1718945877270" duration="7164000" />
+      <workItem from="1718945877270" duration="7861000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>

@@ -1,7 +1,7 @@
-import { client } from '../client';
+import { client } from './client.js';
 
 async function getData() {
-    const query = `*[_type == "project] {
+    const query = `*[_type == "project"] {
     name, description, video, skills, link_read, link_link, link_code
 }`
 
