@@ -2,7 +2,10 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 function CardItem(props) {
-    const isExternalLink = /^https?:\/\//.test(props.path); // Check if it's an external link
+    const isExternalLinkPath = /^https?:\/\//.test(props.path); // Check if it's an external link
+    const isExternalLinkRead = /^https?:\/\//.test(props.iconRead);
+    const isExternalLinkLink = /^https?:\/\//.test(props.iconLink);
+    const isExternalLinkCode = /^https?:\/\//.test(props.iconCode);
 
     const skills = props.skills || []; // Ensure skills is an array or default to an empty array
 
@@ -11,8 +14,8 @@ function CardItem(props) {
             <Link
                 className='cards__item__link'
                 to={props.path}
-                target={isExternalLink ? '_blank' : '_self'} // Set target based on link type
-                rel={isExternalLink ? 'noopener noreferrer' : ''}
+                target={isExternalLinkPath ? '_blank' : '_self'} // Set target based on link type
+                rel={isExternalLinkPath ? 'noopener noreferrer' : ''}
             >
                 <figure className='cards__item__pic-wrap' data-category={props.label}>
 
@@ -46,31 +49,33 @@ function CardItem(props) {
                     )}
                     <div className='cards__icons'>
                     {props.iconRead && (
+                        <div className='cards__icon'>
                         <Link
-                            className='cards__icon'
                             to={props.iconRead}
-                            target={isExternalLink ? '_blank' : '_self'} // Set target based on link type
-                            rel={isExternalLink ? 'noopener noreferrer' : ''}
+                            target={isExternalLinkRead ? '_blank' : '_self'} // Set target based on link type
+                            rel={isExternalLinkRead ? 'noopener noreferrer' : ''}
                         >
                             <img src="/images/icons8-note-48.png" alt="Icon" style={{ width: '24px', height: '24px' }}/>
                         </Link>
+                        </div>
                     )}
                         {props.iconLink && (
+                            <div className='cards__icon'>
                             <Link
-                                className='cards__icon'
-                                to={props.iconRead}
-                                target={isExternalLink ? '_blank' : '_self'} // Set target based on link type
-                                rel={isExternalLink ? 'noopener noreferrer' : ''}
+                                to={props.iconLink}
+                                target={isExternalLinkLink ? '_blank' : '_self'} // Set target based on link type
+                                rel={isExternalLinkLink ? 'noopener noreferrer' : ''}
                             >
                                 <img src="/images/icons8-link-52.png" alt="Icon" style={{ width: '24px', height: '24px' }}/>
                             </Link>
+                            </div>
                         )}
                         {props.iconCode && (
                             <Link
                                 className='cards__icon'
                                 to={props.iconRead}
-                                target={isExternalLink ? '_blank' : '_self'} // Set target based on link type
-                                rel={isExternalLink ? 'noopener noreferrer' : ''}
+                                target={isExternalLinkCode ? '_blank' : '_self'} // Set target based on link type
+                                rel={isExternalLinkCode ? 'noopener noreferrer' : ''}
                             >
                                 <img src="/images/icons8-source-code-64.png" alt="Icon" style={{ width: '24px', height: '24px' }}/>
                             </Link>

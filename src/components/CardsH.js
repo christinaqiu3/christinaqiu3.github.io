@@ -21,8 +21,8 @@ and wave effects with custom GLSL shaders.'
                             label='Mini Minecraft'
                             path='https://vimeo.com/901575818?share=copy'
                             fillertext='y'
-                            iconRead='/alice'
-                            iconLink='/ggg'
+                            iconRead='/minecraft'
+                            iconLink='https://vimeo.com/901575818?share=copy'
                             //iconCode='\chop'
                         />
 
@@ -35,6 +35,8 @@ and wave effects with custom GLSL shaders.'
                             label='Physics Scattering UE5 Tool'
                             path='https://vimeo.com/905688463?share=copy'
                             fillertext='y'
+                            iconRead='/duck'
+                            iconLink='https://vimeo.com/905688463?share=copy'
                         />
                         {/*<CardItem*/}
                         {/*    src='images/chop3.mp4'*/}

@@ -22,6 +22,8 @@ import GGG from './components/pages/GGG';
 import Character from './components/pages/Character';
 import Environment from './components/pages/Environment';
 import Maya from './components/pages/Maya';
+import Duck from './components/pages/Duck';
+
 
 
 function App() {
@@ -44,9 +46,10 @@ function App() {
                 <Route exact path='/galaxygacha' element={<GalaxyGacha />} />
                 <Route exact path='/personalwebsite' element={<PersonalWebsite />} />
                 <Route exact path='/islandescapades' element={<IslandEscapades />} />
-                <Route exact path='/alice' element={<Alice />} />
+                <Route exact path='/minecraft' element={<Alice />} />
                 <Route exact path='/digitalart' element={<DigitalArt />} />
                 <Route exact path='/modeling' element={<Modeling />} />
+                <Route exact path='/duck' element={<Duck />} />
                 <Route exact path='/fineart' element={<FineArt />} />
                 <Route exact path='/CHOP' element={<CHOP />} />
                 <Route exact path='/2ddesign' element={<DDesign />} />

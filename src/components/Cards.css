@@ -195,7 +195,7 @@ h1 {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 25px 25px 20px;
+    margin: 25px 25px 20px;
     z-index: 1;
     flex-direction: row;
     display: flex;
