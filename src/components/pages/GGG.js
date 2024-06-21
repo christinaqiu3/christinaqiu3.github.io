@@ -5,7 +5,7 @@ import CardItem from '../CardItem';
 import useScrollToTop from '../useScrollToTop';
 import {clientinfo} from '../../clientinfo.js';
 
-const p = await clientinfo();
+
 
 
 function GGG() {
@@ -13,6 +13,8 @@ function GGG() {
     useScrollToTop();
 
     const [profileImage, setProfileImage] = useState('images/flower.JPG');
+
+    const [projects, setProjects] = useState([]);
 
     useEffect(() => {
         const handleResize = () => {
@@ -30,6 +32,15 @@ function GGG() {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
+    }, []);
+
+    useEffect(() => {
+        async function fetchData() {
+            const { projects } = await clientinfo();
+            setProjects(projects);
+        }
+
+        fetchData();
     }, []);
 
     return (
@@ -64,18 +75,20 @@ function GGG() {
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
-                            <CardItem
-                                src='images/mineCROP.mp4'
-                                //Coded player physics and procedural cave generation.
-                                text={p.name}
-                                skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
-                                label={p.description}
-                                path='https://vimeo.com/901575818?share=copy'
-                                fillertext='y'
-                                iconRead='/minecraft'
-                                iconLink='https://vimeo.com/901575818?share=copy'
-                                //iconCode='\chop'
-                            />
+                            {projects.map((project, index) => (
+                                <CardItem
+                                    key={index}
+                                    src='images/mineCROP.mp4'
+                                    text={project.description}
+                                    skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
+                                    label={project.name}
+                                    path='https://vimeo.com/901575818?share=copy'
+                                    fillertext='y'
+                                    iconRead='/minecraft'
+                                    iconLink='https://vimeo.com/901575818?share=copy'
+                                    //iconCode='\chop'
+                                />
+                            ))}
                         </ul>
                     </div>
                 </div>

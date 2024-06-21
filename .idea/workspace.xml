@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/src/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clientinfo" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/clientinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientinfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/GGG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/GGG.js" afterDir="false" />
     </list>
@@ -179,7 +177,7 @@
       <workItem from="1711748599725" duration="24019000" />
       <workItem from="1712274533312" duration="10829000" />
       <workItem from="1718919426317" duration="5862000" />
-      <workItem from="1718945877270" duration="7861000" />
+      <workItem from="1718945877270" duration="11172000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>
