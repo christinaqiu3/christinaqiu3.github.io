@@ -10,7 +10,7 @@ function CardsD() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/ChristinaQiu_2E (1).mp4'
+                            src='images/ChristinaQiu_2E (s).mp4'
                             text='Work in progress. Did the 3D modeling, texturing, rigging, lighting, and camera movement. Created stylized customizable shader for BSDF materials. Used Houdini to create procedurally generated trees and geometry nodes to duplicate the trees randomly on the terrain. '
                             skills={['Maya', 'Blender', 'Rigify', 'Houdini']}
                             label='Animation WIP'
