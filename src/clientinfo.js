@@ -3,7 +3,7 @@ import imageUrlBuilder from '@sanity/image-url';
 
 async function getData() {
     const query = `*[_type == "Project"] {
-    name, description, "videoUrl": video.asset->url, skills, link_read, link_link, link_code
+    name, description, "videoUrl": video.asset->url, skills, link_read, link_link, link_code, testing, rich_text
 }`
 
     return await client.fetch(query)
@@ -25,10 +25,9 @@ export async function clientinfo() {
 //     skills,
 //     link_read,
 //     link_link,
-//     link_code
+//     link_code,
+//     rich_text,
 // }`);
-// const url = `https://ac80qgh3.apicdn.sanity.io/v1/data/query/production?query=${query}`;
-//
 // // Function to fetch data
 // export async function clientinfo() {
 //         const response = await fetch(url);
