@@ -10,12 +10,20 @@ function CardsD() {
                     <ul className='cards__items'>
 
                         <CardItem
-                            src='images/charawip (1).mp4'
-                            text='Working on hair for character model.'
-                            skills={['Maya']}
-                            label='Character WIP'
-                            //path='/character'
+                            src='images/ChristinaQiu_2E (1).mp4'
+                            text='Work in progress. Did the 3D modeling, texturing, rigging, lighting, and camera movement. Created stylized customizable shader for BSDF materials. Used Houdini to create procedurally generated trees and geometry nodes to duplicate the trees randomly on the terrain. '
+                            skills={['Maya', 'Blender', 'Rigify', 'Houdini']}
+                            label='Animation WIP'
+                            path='https://drive.google.com/file/d/1Fkpx6lIW2hvuDoIGW-AyoAM9B5y8uLd3/view?usp=sharing'
                         />
+
+                        {/*<CardItem*/}
+                        {/*    src='images/charawip (1).mp4'*/}
+                        {/*    text='Working on hair for character model.'*/}
+                        {/*    skills={['Maya']}*/}
+                        {/*    label='Character WIP'*/}
+                        {/*    //path='/character'*/}
+                        {/*/>*/}
 
                         <CardItem
                             src='images/envwipCropped.mp4'

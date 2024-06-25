@@ -146,7 +146,7 @@ function Home() {
 
                         <h2 className="fade-in-text" style={{ fontStyle: 'italic' }}>
                             <br/>
-                            Last updated March 2024
+                            Last updated June 2024
                         </h2>
                         </div>
                     </div>
