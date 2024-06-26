@@ -4,8 +4,32 @@ import Footer from '../Footer';
 import CardItem from '../CardItem';
 import useScrollToTop from '../useScrollToTop';
 import {clientinfo} from '../../clientinfo.js';
+import { PortableText } from '@portabletext/react';
+import imageUrlBuilder from '@sanity/image-url';
+import {urlFor} from "../../client";
 
-
+// Custom component to handle images
+const myPortableTextComponents = {
+    types: {
+        image: ({value}) => (
+            <>
+                <img
+                    src={urlFor(value).url()}
+                    alt={value.alt || ' '}
+                    style={{maxWidth: '500px', width: '100%'}}
+                />
+                <br/><br/>
+            </>
+        ),
+    },
+    block: {
+        // Customize block types
+        normal: ({ children }) => <p>{children} <br></br><br></br></p>,
+        h1: ({ children }) => <h1>{children} <br></br><br></br></h1>,
+        h2: ({ children }) => <h2>{children} <br></br><br></br></h2>,
+        // Add more styles as needed
+    }
+};
 
 
 function GGG() {
@@ -42,7 +66,6 @@ function GGG() {
 
         fetchData();
     }, []);
-
 
 
     return (
@@ -94,6 +117,11 @@ function GGG() {
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <div className="content-desc"><div>
+                {projects.length > 0 && (<PortableText value={projects.at(1).rich_text} components={myPortableTextComponents} />)}
+            </div>
             </div>
 
             <div className="free-space"><br></br></div>

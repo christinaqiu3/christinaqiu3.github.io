@@ -3,7 +3,7 @@ import imageUrlBuilder from '@sanity/image-url';
 
 async function getData() {
     const query = `*[_type == "Project"] {
-    name, description, "videoUrl": video.asset->url, skills, link_read, link_link, link_code, testing, rich_text
+    name, description, "videoUrl": video.asset->url, skills, link_read, link_link, link_code, rich_text
 }`
 
     return await client.fetch(query)

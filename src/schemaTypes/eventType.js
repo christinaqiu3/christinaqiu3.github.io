@@ -1,4 +1,4 @@
-export const eventType =[ {
+export const eventType = {
     name: 'Project',
     type: 'document',
     fields: [
@@ -32,10 +32,6 @@ export const eventType =[ {
             type: 'string',
         },
         {
-            name: 'testing',
-            type: 'string',
-        },
-        {
             name: 'rich_text',
             type: 'array',
             of: [
@@ -62,4 +58,4 @@ export const eventType =[ {
             ],
         },
     ],
-}]
+}
