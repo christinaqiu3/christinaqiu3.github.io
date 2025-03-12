@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a03747d-c083-45ce-958d-3ac2cbf87d15" name="Changes" comment="trying to fix">
-      <change afterPath="$PROJECT_DIR$/public/images/24hrweb.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/coll1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/coll2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/daytime.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fog_copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gudetama.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/lava.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/monte.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/snowtrees.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/sunset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/water.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/WIP.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardsA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsA.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardsCG.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsCG.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardsD.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardsD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Alice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/DigitalArt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/DigitalArt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/FineArt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/FineArt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="personal-website" />
       <method v="2">
@@ -103,16 +76,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="deploy-sanity" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy-sanity" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
     </configuration>
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -129,6 +92,16 @@
       <command value="run" />
       <scripts>
         <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -156,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.start-sanity" />
-        <item itemvalue="npm.deploy-sanity" />
-        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +176,7 @@
       <workItem from="1712274533312" duration="10829000" />
       <workItem from="1718919426317" duration="5862000" />
       <workItem from="1718945877270" duration="35184000" />
-      <workItem from="1741657308244" duration="12038000" />
+      <workItem from="1741657308244" duration="13000000" />
     </task>
     <task id="LOCAL-00001" summary="trying to fix">
       <created>1686443462954</created>
