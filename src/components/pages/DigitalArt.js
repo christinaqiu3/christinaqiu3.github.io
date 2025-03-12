@@ -8,7 +8,7 @@ export default function DigitalArt() {
     return (
         <>
             <div className="art-content">
-                <h1 className="art-sub-heading">DIGITAL ART</h1>
+                <h1 className="art-sub-heading">Digital Art</h1>
                 <p className="art-home-text"></p>
             </div>
             <div className="art-content-abt">
@@ -24,6 +24,7 @@ export default function DigitalArt() {
                     <h1 className="art-fade-in-text">Grandparents
                     </h1>
                     <h2 className="art-fade-in-text">
+                    <br></br>
                         A drawing I made for my grandparents for Christmas.<br></br><br></br>
                     </h2>
                 </div>
@@ -43,6 +44,7 @@ export default function DigitalArt() {
                     <h1 className="art-fade-in-text">Chibi Me
                     </h1>
                     <h2 className="art-fade-in-text">
+                    <br></br>
                         A stylized drawing of me inspired by Hizgi's artstyle.<br></br><br></br>
                     </h2>
                 </div>
@@ -65,6 +67,7 @@ export default function DigitalArt() {
                     <h1 className="art-fade-in-text">Chrollo
                     </h1>
                     <h2 className="art-fade-in-text">
+                    <br></br>
                         Fanart of a character from Hunter X Hunter.<br></br><br></br>
                     </h2>
                 </div>
@@ -86,6 +89,7 @@ export default function DigitalArt() {
                     <h1 className="art-fade-in-text">Red
                     </h1>
                     <h2 className="art-fade-in-text">
+                    <br></br>
                         An original character I made inspired by Little Red Riding Hood.<br></br><br></br>
                     </h2>
                 </div>
@@ -105,6 +109,7 @@ export default function DigitalArt() {
                     <h1 className="art-fade-in-text">Sun
                     </h1>
                     <h2 className="art-fade-in-text">
+                    <br></br>
                         A study of a selfie I took with cool lighting.<br></br><br></br>
                     </h2>
                 </div>
@@ -125,6 +130,7 @@ export default function DigitalArt() {
                     <h1 className="art-fade-in-text">Friend
                     </h1>
                     <h2 className="art-fade-in-text">
+                    <br></br>
                         A drawing I made for a friend's birthday.
                         She always wears a wool sweatshirt so she reminds me of a sheep.
                         She loves nature and bees.<br></br><br></br>
@@ -144,6 +150,7 @@ export default function DigitalArt() {
                     <h1 className="art-fade-in-text">Surfer
                     </h1>
                     <h2 className="art-fade-in-text">
+                    <br></br>
                         I like the shading in the hair. I had fun making the highlights.<br></br><br></br>
                     </h2>
                 </div>
@@ -162,6 +169,7 @@ export default function DigitalArt() {
                     <h1 className="art-fade-in-text">Strawberry Lemonade
                     </h1>
                     <h2 className="art-fade-in-text">
+                    <br></br>
                         I like this slightly muted color palette.<br></br><br></br>
                     </h2>
                 </div>

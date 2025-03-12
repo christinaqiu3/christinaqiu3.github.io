@@ -6,11 +6,11 @@
 .navbar {
     /*background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);*/
     background: var(--nav-background);
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 70px;
     max-width: 1500px;
 }
 
@@ -29,24 +29,25 @@
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 28px;
     display: flex;
     align-items: center;
 
     position: absolute;
     top: 0;
-    left: 0;
-    transform: translate(2rem, 75%);
+    left: 20%;
+    transform: translate(0%, 24px);
+    z-index: 1;
 }
 
 .fa-typo3 {
     margin-left: 0.5rem;
-    font-size: 1.8rem;
+    font-size: 16px;
 }
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(3, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -55,7 +56,7 @@
 
     position: absolute;
     top: 0;
-    right: 20px;
+    right: 20%;
 }
 
 .nav-item {
@@ -70,7 +71,8 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
-    //font-size: 20px;
+    /* font-size: 20px; */
+    /* margin-top: 5px; */
 }
 
 .nav-links:hover {
@@ -86,7 +88,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(-25%);
     transition: all 0.2s ease-out;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
 }
 
@@ -101,7 +103,7 @@
     left: 50%;
     transform: translateX(-50%);
     transition: all 0.2s ease-out;
-    font-size: 20px;
+    font-size: 16px;
 
 
 }
@@ -207,7 +209,7 @@ button:hover {
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(2rem, 75%);
+        transform: translate(2rem, 100%);
     }
 
     .menu-icon {
@@ -237,7 +239,7 @@ button:hover {
         left: 50%;
         transform: translateX(-50%);
         transition: all 0.2s ease-out;
-        font-size: 20px;
+        font-size: 16px;
         //color: black;
     }
 
@@ -252,7 +254,7 @@ button:hover {
         left: 50%;
         transform: translateX(-50%);
         transition: all 0.2s ease-out;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     button {

@@ -45,8 +45,9 @@ function Home() {
                         <div className="content-abt-padding">
                         <h1 className="fade-in-text">Hi, I'm Christina!</h1>
                         <h2 className="fade-in-text">
+                        <ul class="custom-list">
                             <br></br>
-                            ✦ &nbsp; I am a sophomore at the University of Pennsylvania majoring in&nbsp;
+                            <li> I am a sophomore at the University of Pennsylvania majoring in&nbsp;
                             <Link
                                 className='resume-link'
                                 to='http://cg.cis.upenn.edu/dmd.html'
@@ -57,8 +58,9 @@ function Home() {
                             </Link>
                             , an interdisciplinary program that combines computer science and fine arts.
 
-                            <br></br><br></br>
-                            ✦&nbsp; Currently I’m the Industry Relations Coordinator and a Game Developer for&nbsp;
+                            </li>
+                            <br></br>
+                            <li> Currently I’m the Industry Relations Coordinator and a Game Developer for&nbsp;
                             <Link
                                 className='resume-link'
                                 to='https://magazine.seas.upenn.edu/fall-2022/upgrade/'
@@ -85,8 +87,9 @@ function Home() {
                                 ACM SIGGRAPH
                             </Link> chapter.
 
-                            <br></br><br></br>
-                            ✦&nbsp; I am especially interested in computer graphics, animation, games, virtual reality, and interactive technologies.
+                            </li>
+                            <br></br>
+                            <li> I am especially interested in computer graphics, animation, games, virtual reality, and interactive technologies.
 
                             <br></br><br></br>
                             <Link
@@ -121,8 +124,8 @@ function Home() {
                             >
                                 <i className='fas fa-file-invoice' />
                             </Link>
-
-
+                            </li>
+                            </ul>
                         </h2>
                         <br></br>
                         <iframe
@@ -130,6 +133,7 @@ function Home() {
                             id="demoIframe"
                             src="https://player.vimeo.com/video/875398564?h=856ee31f75"
                             width="100%"
+                            height="100%"
                             frameBorder="0"
                             allow="autoplay; loop; fullscreen"
                             allowFullScreen
@@ -145,13 +149,13 @@ function Home() {
                         {/*</div>*/}
 
                         <h2 className="fade-in-text" style={{ fontStyle: 'italic' }}>
-                            <br/>
-                            Last updated June 2024
+                            <br/><br/>
+                            {/* Last updated June 2024 */}
                         </h2>
                         </div>
                     </div>
 
-                    <div className="vertical-container">
+                    {/* <div className="vertical-container">
 
                         <section id="cg">
                             <h1 className="page-title-heading"> <br></br></h1>
@@ -162,7 +166,7 @@ function Home() {
 
                         <div className="free-space"><br></br></div>
 
-                    </div>
+                    </div> */}
                     </div>
 
 

@@ -15,6 +15,8 @@ function CardsA() {
                             I drew inspiration from familiar spaces, nature, past memories, and dreams.'
                             label='Fine Art'
                             path='/fineart'
+                            iconRead='/fineart'
+                            skills={['Acrylic', 'Charcoal', 'Ink', 'Clay']}
                         />
                         <CardItem
                             src='images/dig-art-5.mp4'
@@ -22,6 +24,8 @@ function CardsA() {
                             family, friends, and myself.'
                             label='Digital Art'
                             path='/digitalart'
+                            iconRead='/digitalart'
+                            skills={['Acrylic', 'Procreate']}
                         />
                     </ul>
                 </div>

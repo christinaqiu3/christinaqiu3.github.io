@@ -18,15 +18,25 @@ Generated procedural caves using 3D Perlin noise and added distance fog. Impleme
 and wave effects with custom GLSL shaders.'
                             skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
                             label='Mini Minecraft'
-                            path='https://vimeo.com/901575818?share=copy'
+                            path='/minecraft'
+                            iconRead='/minecraft'
+                            iconLink='https://vimeo.com/901575818?share=copy'
                         />
-                        <CardItem
+                        {/* <CardItem
                             src='images/waterUnityC.mp4'
                             text='Unity water surface shader with adjustable parameters for color gradient based on depth,
                             noise function wave displacement, and overlapping normal textures. Utilized Shader Graph in URP.' //extrusion
                             skills={['Unity', 'Shader Graph', 'URP']}
                             label='Real Time Customizable Water Shader'
                             path='https://vimeo.com/904655686?share=copy'
+                        /> */}
+                        <CardItem
+                            src='images/monte.mp4'
+                            text='I simulate light transport within a scene using the Light Transport Equation (LTE), exploring and refining different rendering techniques such as naive path tracing, direct lighting, and multiple importance sampling to determine the most effective approach for realistic and efficient rendering.'
+                            skills={['C++', 'OpenGL', 'Qt', 'GLSL']}
+                            label='Monte Carlo Pathtracer'
+                            path='/pathtracer'
+                            iconRead='/pathtracer'
                         />
 
                     </ul>

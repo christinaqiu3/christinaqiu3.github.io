@@ -6,8 +6,53 @@
     --accent3: #AEBFF1;
 }
 
+/* generally use 24px for headers, 16px for body, 14px for smaller 
+20px for card headers*/
+
 body {
     background-color: var(--accent);
+    transform-origin: top;
+}
+
+ul.custom-list {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+    font-weight: normal; /* Ensure text is not bold */
+}
+
+ul.custom-list li {
+    position: relative; /* Set position for list items */
+    padding-left: 25px; /* Indent the list items */
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+}
+
+ul.custom-list li::before {
+    content: '✦'; /* Star emoji */
+    position: absolute; /* Position the star */
+    left: 0; /* Place the star in the indent space */
+    top: 0px; /* Vertically center the star */
+    transform: translateY(0%); /* Adjust for perfect centering */
+    font-weight: normal;
+    
+}
+
+highlight {
+    color: var(--text);
+    background-color: var(--accent, yellow); /* Highlight background color */
+    font-family: 'Courier New', Courier, monospace; /* Code-like font */
+    padding: 0.2em; /* Optional padding to make the highlight stand out more */
+    border-radius: 5px; 
+    font-weight: normal;
+}
+
+code {
+    color: var(--text);
+    background-color: var(--accent, yellow); /* Highlight background color */
+    font-family: 'Courier New', Courier, monospace; /* Code-like font */
+    padding: 0.2em; /* Optional padding to make the highlight stand out more */
+    border-radius: 5px; 
+    font-weight: normal;
 }
 
 * {
@@ -18,13 +63,17 @@ body {
 
 }
 
+h1{
+    font-size: 24px;
+}
+
 h2{
     font-family: 'Mukta', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 h3{
-    font-size: 20px;
+    font-size: 16px;
     display: contents;
 }
 
@@ -60,7 +109,7 @@ iframe {
 }
 
 .home-heading {
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     padding-bottom: 20px;
     color: var(--heading);
@@ -68,7 +117,7 @@ iframe {
 }
 
 .page-title-heading{
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
     padding-bottom: 20px;
     color: var(--heading);
@@ -80,11 +129,11 @@ iframe {
     text-align: center;
     padding-bottom: 20px;
     color: var(--heading);
-    //background-color: var(--background);
+    /* background-color: var(--background); */
 }
 
 .home-sub-heading {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin: -1rem;
     color: var(--heading);
@@ -97,7 +146,9 @@ iframe {
     color: black;
     background-color: rgba(0, 0, 0, 0);
 }
-
+bullet-heading {
+    font-size: 24px;
+}
 .sub-heading {
     font-size: 24px;
     text-align: center;
@@ -131,10 +182,11 @@ iframe {
     animation: fadeEaseLeft 2s forwards;
 }
 
+
 .profile-image {
     top: 50%;
     left: 0;
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 0 0 20px var(--accent);
     transform: translate(-50%, -50%);
     object-fit: cover;
@@ -188,7 +240,7 @@ iframe {
 }
 
 .content {
-    //display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     background-color: var(--accent);
@@ -203,7 +255,7 @@ iframe {
     justify-content: center;
     align-items: flex-start; /* Align items to the top */
     background-color: var(--background);
-    padding: 0rem 75px 50px;
+    /* padding: 0rem 75px 50px; */
     padding-right: 0rem;
 }
 
@@ -241,9 +293,52 @@ iframe {
     font-size: 2rem;
 }
 
+.projdesc-image-container {
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; /* Distribute space evenly between images */
+    gap: 2rem; /* Add space between images */
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.projdesc-image-container img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+    font-weight: normal;
+}
+.projdesc-image-container .image-with-caption {
+    max-width: 250px;
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.projdesc-image-container .image-with-caption2 {
+    max-height: 250px;
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.projdesc-image-container .wide-image-with-caption {
+    width: 550px;
+    //flex: 1 1 550px;
+    text-align: center;
+}
+
+.projdesc-image-container .caption {
+    font-style: italic; /* Italicize the caption text */
+    font-size: 14px; /* Adjust the font size of the caption */
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    max-width: 100%; /* Ensure the caption stays within the image width */
+    word-wrap: break-word; /* Allow long words to wrap */
+    text-align: center; /* Optional: keeps the caption centered */
+}
+
 .text-container {
-    flex: 0 0 30%; /* Take up to 50% of the available space */
-    padding-top: 4rem;
+    flex: 0 0 60%; /* Take up to 50% of the available space */
+    padding-top: 3rem;
     /*padding-right: 2rem;
     padding-left: 1rem;*/
     display: flex; /* Use flexbox */
@@ -278,7 +373,7 @@ iframe {
 
 .resume-link {
     color: var(--text);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     text-align: left;
     padding-top: 20px;
@@ -329,6 +424,19 @@ iframe {
     margin: 1rem 0 1rem;
 }
 
+.custom-rounded-rectangle {
+    display: inline-block;
+    padding: 8px 10px; 
+    border-radius: 8px; 
+    /*border: 2px solid var(--nav-background);  Border color */
+    margin: 8px 4px 0px;
+    font-size: 12px;
+    background-color: black;
+    /* box-shadow: 0 0 20px rgb(149, 156, 248); */
+    color: var(--nav-background);
+    align-self: flex-end;
+}
+
 @media screen and (max-width: 930px) {
     iframe {
         width: 100%;
@@ -342,8 +450,8 @@ iframe {
     }
 
     .profile-image {
-        //width: 50%;
-        border-radius: 25px;
+        /* width: 50%; */
+        border-radius: 20px;
         margin-top: 1rem;
     }
 
@@ -370,7 +478,7 @@ iframe {
     }
 
     .content-abt-padding {
-        margin: 4rem 4rem 0;
+        margin: 3rem 4rem 0;
 
     }
 
@@ -413,7 +521,7 @@ iframe {
     position: absolute;
     top: -50%;
     left: -250px;
-    border-radius: 25px;
+    border-radius: 20px;
     background: radial-gradient(circle at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%);
     opacity: 0;
     pointer-events: none;
@@ -445,14 +553,3 @@ iframe {
     align-self: flex-end;
 }
 
-.custom-rounded-rectangle {
-    display: inline-block;
-    padding: 8px 16px; /* Adjust padding according to your preference */
-    border-radius: 10px; /* Adjust border-radius to control the roundness of the rectangle */
-    /*border: 2px solid var(--nav-background);  Border color */
-    margin: 10px 5px 0px;
-    background-color: black;
-    //box-shadow: 0 0 20px rgb(149, 156, 248);
-    color: var(--nav-background);
-    align-self: flex-end;
-}
